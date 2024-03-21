@@ -12,26 +12,21 @@
 					<option value="en">English</option>
 				</select>
 			</div>
-			<!-- <div class="theme-switch-wrapper">
-				<label class="theme-switch" for="checkbox">
-					<input type="checkbox" id="checkbox" @change="switchTheme()" />
-					<div class="slider round"></div>
-				</label>
-			</div> -->
 			<div class="theme-switch-container">
-				<img :src="require('../assets/' + this.themeIcon + '-icon.svg')" @click="switchTheme" />
-				<!-- <img v-if="!this.switchedTheme" src="../assets/moon-icon.svg" @click="switchTheme" />
-				<img v-if="this.switchedTheme" src="../assets/sun-icon.svg" @click="switchTheme" /> -->
+				<ThemeIcon :switchedTheme="this.switchedTheme" @click="switchTheme" />
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
+import ThemeIcon from "../components/svgs/ThemeIcon.vue";
+
 document.documentElement.setAttribute("data-theme", "dark");
 
 export default {
-	name: "App",
+	name: "NavBar",
+	components: { ThemeIcon },
 	data() {
 		return {
 			switchedTheme: false,

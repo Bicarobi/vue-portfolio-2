@@ -4,7 +4,7 @@
 			<Profile />
 		</div>
 		<div class="grid-right-side">
-			<Nav />
+			<NavBar />
 			<router-view />
 		</div>
 	</div>
@@ -12,10 +12,10 @@
 
 <script>
 import Profile from "./components/Profile.vue";
-import Nav from "./components/Nav.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
 	name: "App",
-	components: { Nav, Profile },
+	components: { NavBar, Profile },
 };
 </script>
