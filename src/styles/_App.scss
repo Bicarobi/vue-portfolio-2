@@ -1,0 +1,28 @@
+#app > .grid-container {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: auto;
+	grid-template-areas: "left-side right-side";
+
+	> .grid-right-side {
+		grid-area: right-side;
+		height: 100%;
+		margin-top: 200px;
+	}
+
+	> .grid-left-side {
+		grid-area: left-side;
+
+		height: fit-content;
+		width: 20%;
+		height: 100%;
+		position: fixed;
+
+		@media #{$mobile} {
+			top: 20px;
+			left: 50%;
+			transform: translate(-50%, 0%);
+			width: calc(100% - 40px);
+		}
+	}
+}
