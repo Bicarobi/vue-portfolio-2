@@ -505,7 +505,7 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .nav-grid-container > .nav-grid-left-side > a {
   font-weight: bold;
@@ -575,6 +575,11 @@
 }
 .nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > .slider.round:before {
   border-radius: 50%;
+}
+.nav-grid-container > .nav-grid-right-side > .theme-switch-container > img {
+  width: auto;
+  height: var(--icon-size);
+  cursor: pointer;
 }
 
 /* @import "./components/ContactForm"; */

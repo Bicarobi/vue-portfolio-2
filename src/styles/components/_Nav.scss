@@ -23,7 +23,7 @@
 		align-items: center;
 		gap: 30px;
 
-		font-size: 20px;
+		font-size: 16px;
 
 		> a {
 			font-weight: bold;
@@ -104,6 +104,15 @@
 				> .slider.round:before {
 					border-radius: 50%;
 				}
+			}
+		}
+
+		> .theme-switch-container {
+			> img {
+				width: auto;
+				height: var(--icon-size);
+
+				cursor: pointer;
 			}
 		}
 	}
