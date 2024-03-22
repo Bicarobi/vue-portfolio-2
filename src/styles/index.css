@@ -89,7 +89,7 @@
 }
 .about-container > .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   grid-template-rows: auto;
   grid-template-areas: "left-side right-side";
   gap: 20px;
@@ -405,7 +405,7 @@
   grid-template-areas: "left-side right-side";
   gap: 20px;
   width: 100%;
-  box-shadow: rgba(23, 23, 23, 0.231372549) 0px 4px 6px 0px;
+  /* box-shadow: #1717173b 0px 4px 6px 0px; */
   border-radius: 15px;
   background-color: var(--color5);
   padding: 20px;
