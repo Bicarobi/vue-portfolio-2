@@ -21,6 +21,8 @@
   --color10: #383838;
   --color11: #171717;
   --color12: #ebebeb;
+  --color13: #d7d7d7;
+  --color14: #111;
 }
 
 [data-theme=dark] {
@@ -36,6 +38,7 @@
   --color10: #383838;
   --color11: #171717;
   --color12: #111;
+  --color13: #d7d7d7;
 }
 
 #app > .grid-container {
@@ -513,7 +516,7 @@
   text-decoration: none;
 }
 .nav-grid-container > .nav-grid-left-side > a.router-link-exact-active {
-  color: #fbb300;
+  color: var(--color2);
 }
 .nav-grid-container > .nav-grid-right-side {
   grid-area: right-side;
@@ -527,54 +530,12 @@
   align-items: center;
   gap: 20px;
 }
-.nav-grid-container > .nav-grid-right-side > select {
-  position: relative;
-  min-width: 200px;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch {
-  display: inline-block;
-  height: 20px;
-  position: relative;
-  width: 40px;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > input {
-  display: none;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > .slider {
-  background-color: #ccc;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: 0.4s;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > .slider:before {
-  background-color: #fff;
-  bottom: 2px;
-  content: "";
-  height: 16px;
-  left: 2px;
-  position: absolute;
-  transition: 0.4s;
-  width: 16px;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > input:checked + .slider {
-  background-color: #66bb6a;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > input:checked + .slider:before {
-  transform: translateX(20px);
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > .slider.round {
-  border-radius: 34px;
-}
-.nav-grid-container > .nav-grid-right-side > .theme-switch-wrapper > .theme-switch > .slider.round:before {
-  border-radius: 50%;
+.nav-grid-container > .nav-grid-right-side > .locale-changer select {
+  background-color: var(--color13);
+  color: var(--color14);
+  border: none;
+  border-radius: 20px;
+  padding: 3px 5px;
 }
 .nav-grid-container > .nav-grid-right-side > .theme-switch-container > img {
   width: auto;
