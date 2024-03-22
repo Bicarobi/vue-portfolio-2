@@ -6,11 +6,11 @@
 				<h2 class="name">Robert Cmrečki</h2>
 				<!-- <a class="title" href="https://urn.nsk.hr/urn:nbn:hr:122:388921"><h3>bacc. ing. techn. graph.</h3></a> -->
 				<div class="tag-container">
-					<h4 class="tag">Web Developer</h4>
-					<h4 class="tag">Web Designer</h4>
-					<h4 class="tag">3D Designer</h4>
-					<h4 class="tag">Graphic Designer</h4>
-					<h4 class="tag">Photographer</h4>
+					<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><h4 class="tag">Web Developer</h4></router-link>
+					<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><h4 class="tag">Web Designer</h4></router-link>
+					<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"><h4 class="tag">3D Designer</h4></router-link>
+					<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"><h4 class="tag">Graphic Designer</h4></router-link>
+					<router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><h4 class="tag">Photographer</h4></router-link>
 				</div>
 
 				<hr class="line" />

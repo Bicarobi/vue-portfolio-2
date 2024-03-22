@@ -17,11 +17,20 @@
 		margin: 0px 0px 50px 0px;
 	}
 
+	> .line {
+		width: 100%;
+		margin: 10px auto 20px auto;
+		border: 1px solid var(--color5);
+		border-radius: 1px;
+	}
+
 	> .type-container {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
 		gap: 20px;
+
+		font-size: 14px;
 
 		> a {
 			font-weight: bold;
@@ -30,14 +39,13 @@
 		}
 
 		> a.router-link-exact-active {
-			color: $yellow;
+			color: var(--color2);
 			/* text-decoration: underline; */
 		}
 	}
 
 	> .works-container {
 		display: flex;
-		margin-top: 50px;
 		gap: 20px;
 		flex-direction: row;
 		flex-wrap: wrap;

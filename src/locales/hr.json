@@ -45,7 +45,7 @@
 		"eduInfo": {
 			"info1": {
 				"title": "Sveučilište Sjever Varaždin - Diplomski studij",
-				"time": "2023 — sadašnjost",
+				"time": "2023 — trenutno",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 			},
 			"info2": {
@@ -74,6 +74,46 @@
 				"webDesign": "Dizajn Web Stranica",
 				"graphicDesign": "Grafički Dizajn",
 				"photo": "Fotografija"
+			}
+		}
+	},
+	"portfolioView": {
+		"skills": {
+			"all": "Sve",
+			"design3D": "3D Dizajn",
+			"webDev": "Razvoj Web Stranica",
+			"webDesign": "Dizajn Web Stranica",
+			"graphicDesign": "Grafički Dizajn",
+			"photo": "Fotografija"
+		},
+		"works": {
+			"webDesign": {
+				"type": "Dizajn Web Stranica",
+				"work1": {
+					"title": "Rad1",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"design3D": {
+				"type": "3D Dizajn",
+				"work1": {
+					"title": "Rad2",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"graphicDesign": {
+				"type": "Grafički Dizajn",
+				"work1": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"photo": {
+				"type": "Fotografija",
+				"work1": {
+					"title": "Rad4",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
 			}
 		}
 	}

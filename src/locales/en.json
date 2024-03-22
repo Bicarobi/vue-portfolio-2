@@ -76,5 +76,44 @@
 				"photo": "Photography"
 			}
 		}
+	},
+	"portfolioView": {
+		"skills": {
+			"all": "All",
+			"design3D": "3D Design",
+			"webDesign": "Web Design",
+			"graphicDesign": "Graphic Design",
+			"photo": "Photography"
+		},
+		"works": {
+			"webDesign": {
+				"type": "Web Design",
+				"work1": {
+					"title": "work1",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"design3D": {
+				"type": "3D Design",
+				"work1": {
+					"title": "work2",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"graphicDesign": {
+				"type": "Graphic Design",
+				"work1": {
+					"title": "work3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			},
+			"photo": {
+				"type": "Photography",
+				"work1": {
+					"title": "work4",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				}
+			}
+		}
 	}
 }
