@@ -1,5 +1,7 @@
 <template>
 	<div class="portfolio-container">
+		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
+		<hr class="nav-line" />
 		<div class="type-container">
 			<router-link :to="{ name: 'portfolio' }">All</router-link>
 			<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }">Web Design</router-link>
@@ -18,6 +20,8 @@
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+
 import WorkCard from "../components/WorkCard.vue";
 
 export default {
@@ -36,6 +40,9 @@ export default {
 				{ title: "work8", type: "photography", desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam.", img: "placeholder.png", link: "" },
 			],
 		};
+	},
+	computed: {
+		route: () => useRoute(),
 	},
 	methods: {
 		filterWorks(works) {

@@ -7,11 +7,14 @@
 		<div class="bar-outline">
 			<div class="bar-fill" :style="{ width: percentage + '%' }"></div>
 		</div>
+		<div class="tag-container">
+			<div class="tag" v-for="skill in skills" :key="skill">{{ skill }}</div>
+		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	props: ["type", "percentage"],
+	props: ["type", "percentage", "skills"],
 };
 </script>

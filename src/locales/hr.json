@@ -17,21 +17,59 @@
 		"text2": "",
 		"doing": "Moje Vještine",
 		"skills": {
-			"web-dev": {
+			"webDev": {
 				"title": "razvoj web stranica",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
 			},
-			"web-design": {
+			"webDesign": {
 				"title": "dizajn web stranica",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
 			},
-			"3d-design": {
+			"design3D": {
 				"title": "3d dizajn",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
 			},
 			"photo": {
 				"title": "fotografija",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+			}
+		}
+	},
+	"resumeView": {
+		"education": "Obrazovanje",
+		"experience": "Iskustvo",
+		"eduInfo": {
+			"info1": {
+				"title": "Sveučilište Sjever Varaždin - Diplomski studij",
+				"time": "2023 — sadašnjost",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+			},
+			"info2": {
+				"title": "Sveučilište Sjever Varaždin - Preddiplomski studij",
+				"time": "2020 — 2023",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+			},
+			"info3": {
+				"title": "Elektrostrojarska Škola Varaždin",
+				"time": "2016 — 2020",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+			}
+		},
+		"workInfo": {
+			"info1": {
+				"title": "Prolink",
+				"time": "2023 — 2024",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+			}
+		},
+		"skills": {
+			"mySkills": "Znanje",
+			"type": {
+				"design3D": "3D Dizajn",
+				"webDev": "Razvoj Web Stranica",
+				"webDesign": "Dizajn Web Stranica",
+				"graphicDesign": "Grafički Dizajn",
+				"photo": "Fotografija"
 			}
 		}
 	}

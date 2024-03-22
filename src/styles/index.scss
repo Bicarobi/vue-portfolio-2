@@ -1,5 +1,6 @@
 $white: #fff;
 $white2: #ebebeb;
+$white3: #c9c9c9;
 
 $yellow: #fbb300;
 $orange: #fb7100;
@@ -21,6 +22,7 @@ $icon-size-tablet: 20px;
 $icon-size-mobile: 16px;
 
 $mobile: "(max-width: 600px)";
+$tablet: "(max-width: 1000px)";
 
 :root {
 	--icon-size: #{$icon-size-desktop};
@@ -37,18 +39,17 @@ $mobile: "(max-width: 600px)";
 [data-theme="light"] {
 	--color1: #{$gray8};
 	--color2: #{$orange};
-	--color3: #{$orange};
+	--color3: #{$yellow};
 	--color4: #{$gray1};
 	--color5: #{$white2};
 	--color6: #{$white};
 	--color7: #{$white2};
 	--color8: #{$gray5};
-	--color9: #{$gray6};
+	--color9: #{$white3};
 	--color10: #{$gray7};
 	--color11: #{$gray8};
 	--color12: #{$white};
 	--color13: #{$white2};
-	--color14: #{$gray9};
 }
 
 [data-theme="dark"] {
