@@ -1,5 +1,5 @@
 .about-card-container {
-	max-width: calc(50% - 10px);
+	width: calc(50% - 10px);
 
 	> .grid-container {
 		display: grid;
@@ -41,6 +41,8 @@
 				font-weight: bold;
 				color: $gray5;
 				font-size: 0.8em;
+
+				text-align: left;
 			}
 
 			> .card-desc {

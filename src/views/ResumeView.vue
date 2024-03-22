@@ -1,5 +1,7 @@
 <template>
 	<div class="resume-container">
+		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
+		<hr class="nav-line" />
 		<div class="content-container">
 			<div class="type-container">
 				<img src="../assets/book-icon.svg" />
@@ -33,6 +35,8 @@
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+
 import ResumeInfo from "../components/ResumeInfo.vue";
 import ProgressBar from "../components/ProgressBar.vue";
 
@@ -47,6 +51,9 @@ export default {
 			],
 			expInfo: [{ title: "Prolink", time: "2023 — 2024    ", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam." }],
 		};
+	},
+	computed: {
+		route: () => useRoute(),
 	},
 };
 </script>

@@ -1,5 +1,8 @@
 {
-	"nav": {
+	"welcomeView": {
+		"text": "Dobro došli na moj portfelj!"
+	},
+	"navBar": {
 		"about": "O Meni",
 		"resume": "Rezime",
 		"portfolio": "Portfelj"

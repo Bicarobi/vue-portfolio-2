@@ -1,6 +1,6 @@
 <template>
 	<div class="about-container">
-		<div class="current-page">{{ $t("nav." + route.name) }}</div>
+		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
 		<hr class="nav-line" />
 
 		<div class="text-container">

@@ -1,9 +1,9 @@
 <template>
 	<div class="nav-grid-container">
 		<div class="nav-grid-left-side">
-			<router-link :to="{ name: 'about' }">{{ $t("nav.about") }}</router-link>
-			<router-link :to="{ name: 'resume' }">{{ $t("nav.resume") }}</router-link>
-			<router-link :to="{ name: 'portfolio' }">{{ $t("nav.portfolio") }}</router-link>
+			<router-link :to="{ name: 'about' }">{{ $t("navBar.about") }}</router-link>
+			<router-link :to="{ name: 'resume' }">{{ $t("navBar.resume") }}</router-link>
+			<router-link :to="{ name: 'portfolio' }">{{ $t("navBar.portfolio") }}</router-link>
 		</div>
 		<div class="nav-grid-right-side">
 			<div class="locale-changer">

@@ -1,7 +1,21 @@
 .resume-container {
 	width: 100%;
 	height: 100%;
-	padding: 0px 40px 30px 40px;
+	padding: 0px 80px 30px 80px;
+
+	> .current-page {
+		font-size: 2rem;
+		color: var(--color1);
+		text-transform: capitalize;
+		font-weight: bold;
+	}
+
+	> .nav-line {
+		width: 120px;
+		border-radius: 15px;
+		border: solid 3px var(--color2);
+		margin: 0px 0px 50px 0px;
+	}
 
 	> .info-line {
 		width: calc(100% - 80px);

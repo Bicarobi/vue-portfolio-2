@@ -1,5 +1,8 @@
 {
-	"nav": {
+	"welcomeView": {
+		"text": "Welcome to my portfolio!"
+	},
+	"navBar": {
 		"about": "About",
 		"resume": "Resume",
 		"portfolio": "Portfolio"

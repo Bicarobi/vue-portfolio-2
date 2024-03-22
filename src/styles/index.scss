@@ -24,11 +24,13 @@ $mobile: "(max-width: 600px)";
 
 :root {
 	--icon-size: #{$icon-size-desktop};
+	--icon-size2: #{$icon-size-desktop * 2};
 }
 
 @media #{$mobile} {
 	:root {
 		--icon-size: #{$icon-size-mobile};
+		--icon-size2: #{$icon-size-mobile * 2};
 	}
 }
 
