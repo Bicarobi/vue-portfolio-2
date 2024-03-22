@@ -4,7 +4,7 @@
 			<div class="grid-left-side">
 				<img src="../assets/profile-placeholder.jpg" />
 				<h2 class="name">Robert Cmrečki</h2>
-				<a class="title" href="https://urn.nsk.hr/urn:nbn:hr:122:388921"><h3>bacc. ing. techn. graph.</h3></a>
+				<!-- <a class="title" href="https://urn.nsk.hr/urn:nbn:hr:122:388921"><h3>bacc. ing. techn. graph.</h3></a> -->
 				<div class="tag-container">
 					<h4 class="tag">Web Developer</h4>
 					<h4 class="tag">Web Designer</h4>
@@ -16,13 +16,15 @@
 				<hr class="line" />
 
 				<div class="info-container">
-					<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description" :image="tag.image" />
+					<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description">
+						<component :is="tag.image" />
+					</ProfileInfoTag>
 				</div>
 				<hr class="line" />
 				<div class="social-container">
-					<a href="https://www.linkedin.com/in/robert-cmrecki/" target="_blank"> <img src="../assets/linkedin-icon-yellow.svg" /></a>
-					<a href="https://github.com/Bicarobi/" target="_blank"> <img src="../assets/github-icon-yellow.svg" /></a>
-					<a href="https://www.instagram.com/ro2tsa/" target="_blank"><img src="../assets/instagram-icon-yellow.svg" /></a>
+					<a href="https://www.linkedin.com/in/robert-cmrecki/" target="_blank"> <LinkedInIcon /></a>
+					<a href="https://github.com/Bicarobi/" target="_blank"> <GitHubIcon /></a>
+					<a href="https://www.instagram.com/ro2tsa/" target="_blank"><InstagramIcon /></a>
 				</div>
 			</div>
 			<div class="grid-right-side">
@@ -34,16 +36,22 @@
 
 <script>
 import ProfileInfoTag from "../components/ProfileInfoTag.vue";
+import EmailIcon from "./svgs/EmailIcon.vue";
+import PhoneIcon from "./svgs/PhoneIcon.vue";
+import LocationIcon from "./svgs/LocationIcon.vue";
+import LinkedInIcon from "./svgs/LinkedInIcon.vue";
+import GitHubIcon from "./svgs/GitHubIcon.vue";
+import InstagramIcon from "./svgs/InstagramIcon.vue";
 
 export default {
 	name: "Profile",
-	components: { ProfileInfoTag },
+	components: { ProfileInfoTag, EmailIcon, PhoneIcon, LocationIcon, LinkedInIcon, GitHubIcon, InstagramIcon },
 	computed: {
 		processedTags() {
 			const tags = [
-				{ type: "email", description: "cmrecki.robert@gmail.com", image: "email-icon-yellow.svg" },
-				{ type: "phone", description: "+385 91 211 1165", image: "phone-icon-yellow.svg" },
-				{ type: "location", description: " / Varaždin", image: "location-icon-yellow.svg" },
+				{ type: "email", description: "cmrecki.robert@gmail.com", image: "EmailIcon" },
+				{ type: "phone", description: "+385 91 211 1165", image: "PhoneIcon" },
+				{ type: "location", description: " / Varaždin", image: "LocationIcon" },
 			];
 
 			return tags.map((tag) => {

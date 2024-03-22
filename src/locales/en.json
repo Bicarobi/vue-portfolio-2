@@ -10,6 +10,26 @@
 		"phone": "phone"
 	},
 	"aboutView": {
-		"text1": "After graduating from the School of Electrical Engineering for Computer Technicians, I am currently a student at the University of the North, where I obtained a bachelor's degree in multimedia and graphic technology engineering (bacc. ing. tech. graph.). I am continuing my education at the graduate study in Multimedia. I chose this major because of my passion for programming and connecting graphic design with functionality. I am particularly interested in frontend and backend development because I believe that these are areas that shape the future."
+		"text1": "After graduating from the School of Electrical Engineering for Computer Technicians, I am currently a student at the University of the North, where I obtained a bachelor's degree in multimedia and graphic technology engineering (bacc. ing. tech. graph.). I am continuing my education at the graduate study in Multimedia. I chose this major because of my passion for programming and connecting graphic design with functionality. I am particularly interested in frontend and backend development because I believe that these are areas that shape the future.",
+		"text2": "",
+		"doing": "What I'm Doing",
+		"skills": {
+			"web-dev": {
+				"title": "web development",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+			},
+			"web-design": {
+				"title": "web design",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+			},
+			"3d-design": {
+				"title": "3d design",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+			},
+			"photo": {
+				"title": "photography",
+				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+			}
+		}
 	}
 }

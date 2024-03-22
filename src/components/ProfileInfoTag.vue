@@ -2,7 +2,7 @@
 	<div class="profile-info-tag-container">
 		<div class="grid-container">
 			<div class="grid-left-side">
-				<img :src="require('../assets/' + image)" />
+				<slot></slot>
 			</div>
 			<div class="grid-right-side">
 				<div class="type">{{ type }}</div>
@@ -14,6 +14,6 @@
 
 <script>
 export default {
-	props: ["image", "type", "description"],
+	props: ["type", "description"],
 };
 </script>

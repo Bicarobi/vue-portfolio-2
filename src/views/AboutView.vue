@@ -17,33 +17,41 @@
 			</div>
 		</div>
 		<div class="doing-container">
-			<h1>What I'm Doing</h1>
+			<h1>{{ $t("aboutView.doing") }}</h1>
 			<div class="card-container">
-				<AboutCard v-for="card in cards" :key="card.type" :type="card.type" :description="card.description" :image="card.image" />
+				<AboutCard v-for="card in processedCards" :key="card.type" :type="card.type" :desc="card.desc" :image="card.image">
+					<component :is="card.image" />
+				</AboutCard>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
-import AboutCard from "../components/AboutCard.vue";
 import { useRoute } from "vue-router";
+
+import AboutCard from "../components/AboutCard.vue";
+
+import WebDevIcon from "../components/svgs/WebDevIcon.vue";
+import WebDesignIcon from "../components/svgs/WebDesignIcon.vue";
+import Design3DIcon from "../components/svgs/Design3DIcon.vue";
+import PhotoIcon from "../components/svgs/PhotoIcon.vue";
 
 export default {
 	name: "About",
-	components: { AboutCard },
-	data() {
-		return {
-			cards: [
-				{ type: "web development", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam.", image: "development-icon.svg" },
-				{ type: "web design", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam.", image: "design-icon.svg" },
-				{ type: "3D design", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam.", image: "3d-icon.svg" },
-				{ type: "photography", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam.", image: "photo-icon.svg" },
-			],
-		};
-	},
+	components: { AboutCard, WebDevIcon, WebDesignIcon, Design3DIcon, PhotoIcon },
 	computed: {
 		route: () => useRoute(),
+		processedCards() {
+			const cards = [
+				{ type: this.$i18n.t("aboutView.skills.web-dev.title"), desc: this.$i18n.t("aboutView.skills.web-dev.desc"), image: "WebDevIcon" },
+				{ type: this.$i18n.t("aboutView.skills.web-design.title"), desc: this.$i18n.t("aboutView.skills.web-design.desc"), image: "WebDesignIcon" },
+				{ type: this.$i18n.t("aboutView.skills.3d-design.title"), desc: this.$i18n.t("aboutView.skills.3d-design.desc"), image: "Design3DIcon" },
+				{ type: this.$i18n.t("aboutView.skills.photo.title"), desc: this.$i18n.t("aboutView.skills.photo.desc"), image: "PhotoIcon" },
+			];
+
+			return cards;
+		},
 	},
 };
 </script>

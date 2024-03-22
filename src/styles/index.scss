@@ -1,5 +1,5 @@
-$white: #ebebeb;
-$white2: #d7d7d7;
+$white: #fff;
+$white2: #ebebeb;
 
 $yellow: #fbb300;
 $orange: #fb7100;
@@ -107,4 +107,21 @@ body {
 	font-family: Roboto, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+//SCROLLBAR
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--color6);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color5);
 }
