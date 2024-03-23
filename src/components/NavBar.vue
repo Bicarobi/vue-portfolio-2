@@ -22,7 +22,7 @@
 <script>
 import ThemeIcon from "../components/svgs/ThemeIcon.vue";
 
-document.documentElement.setAttribute("data-theme", "dark");
+/* document.documentElement.setAttribute("data-theme", "dark"); */
 
 export default {
 	name: "NavBar",
@@ -33,14 +33,25 @@ export default {
 			themeIcon: "moon",
 		};
 	},
+	beforeMount() {
+		if (localStorage.darkMode == "enabled") {
+			this.switchedTheme = true;
+			this.switchTheme();
+		} else {
+			this.switchedTheme = false;
+			this.switchTheme();
+		}
+	},
 	methods: {
 		switchTheme() {
 			if (this.switchedTheme) {
 				document.documentElement.setAttribute("data-theme", "dark");
 				this.themeIcon = "moon";
+				localStorage.darkMode = "enabled";
 			} else {
 				document.documentElement.setAttribute("data-theme", "light");
 				this.themeIcon = "sun";
+				localStorage.darkMode = "disabled";
 			}
 			this.switchedTheme = !this.switchedTheme;
 		},
