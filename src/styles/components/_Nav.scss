@@ -13,6 +13,14 @@
 	top: 0;
 	right: 0;
 
+	@media #{$mobile} {
+		top: auto;
+		right: auto;
+		left: 0;
+		bottom: 0;
+		width: 100vw;
+	}
+
 	> .nav-grid-left-side {
 		grid-area: left-side;
 		width: 100%;

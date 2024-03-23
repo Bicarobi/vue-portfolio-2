@@ -89,6 +89,10 @@ $tablet: "(max-width: 1000px)";
 body {
 	background-color: var(--color6);
 	margin: 0;
+
+	@media #{$mobile} {
+		background-color: var(--color12);
+	}
 }
 
 html {

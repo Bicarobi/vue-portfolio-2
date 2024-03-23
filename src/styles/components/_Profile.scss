@@ -6,6 +6,12 @@
 
 	height: 100%;
 
+	@media #{$mobile} {
+		background-color: var(--color6);
+		border-radius: 20px;
+		margin: 10px;
+	}
+
 	> .grid-container {
 		display: grid;
 		grid-template-columns: 100% 10px;
@@ -110,7 +116,7 @@
 
 		> .grid-right-side {
 			grid-area: right-side;
-			width: 100%;
+			width: fit-content;
 
 			display: flex;
 			align-items: center;
@@ -122,6 +128,10 @@
 				margin: auto 0;
 				border: 1px solid var(--color5);
 				border-radius: 1px;
+			}
+
+			@media #{$mobile} {
+				display: none;
 			}
 		}
 	}

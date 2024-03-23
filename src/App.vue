@@ -1,10 +1,10 @@
 <template>
+	<NavBar />
 	<div class="grid-container">
 		<div class="grid-left-side">
 			<Profile />
 		</div>
 		<div class="grid-right-side">
-			<NavBar />
 			<router-view />
 		</div>
 	</div>
