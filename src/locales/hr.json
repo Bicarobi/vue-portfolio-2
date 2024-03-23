@@ -91,28 +91,28 @@
 				"type": "Dizajn Web Stranica",
 				"work1": {
 					"title": "Rad1",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Ovo je tekst za rad 1"
 				}
 			},
 			"design3D": {
 				"type": "3D Dizajn",
 				"work1": {
 					"title": "Rad2",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Ovo je tekst za rad 2"
 				}
 			},
 			"graphicDesign": {
 				"type": "Grafički Dizajn",
 				"work1": {
 					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Ovo je tekst za rad 3"
 				}
 			},
 			"photo": {
 				"type": "Fotografija",
 				"work1": {
 					"title": "Rad4",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Ovo je tekst za rad 4"
 				}
 			}
 		}

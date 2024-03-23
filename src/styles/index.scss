@@ -103,6 +103,7 @@ body {
 *:before,
 *:after {
 	box-sizing: inherit;
+	transition: 0.3s;
 }
 
 #app {
@@ -126,5 +127,5 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: var(--color5);
+	background: var(--color9);
 }
