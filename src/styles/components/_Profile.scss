@@ -6,12 +6,6 @@
 
 	height: 100%;
 
-	@media #{$mobile} {
-		background-color: var(--color6);
-		border-radius: 20px;
-		margin: 10px;
-	}
-
 	> .grid-container {
 		display: grid;
 		grid-template-columns: 100% 10px;
@@ -20,6 +14,10 @@
 		justify-items: end;
 
 		height: 100%;
+
+		/* @media #{$mobile} {
+			overflow: hidden;
+		} */
 
 		> .grid-left-side {
 			grid-area: left-side;
@@ -32,85 +30,165 @@
 			flex-wrap: wrap;
 			align-items: center;
 
-			> img {
-				width: 50%;
-				height: auto;
-				border-radius: 25px;
-			}
+			> .grid-container {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: auto;
+				grid-template-areas: "left-side" "right-side";
+				justify-items: end;
 
-			> .name {
-				font-weight: bold;
-				color: var(--color1);
-				/* margin: 50px 0 0 0; */
-			}
+				height: 100%;
 
-			> .title {
-				font-size: 0.8em;
-				color: $yellow;
-				/* color: #727272; */
-				text-decoration: none;
-				margin: 0;
-			}
+				@media #{$mobile} {
+					grid-template-columns: 1fr 2fr;
+					grid-template-areas: "left-side right-side";
+					padding: 10px 0;
+				}
 
-			> .tag-container {
-				width: 80%;
+				> .grid-left-side {
+					grid-area: left-side;
 
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				flex-direction: row;
-				flex-wrap: wrap;
-				gap: 5px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
 
-				margin: 20px 0 0 0;
+					margin-left: 0px;
 
-				> a {
-					text-decoration: none;
+					@media #{$mobile} {
+						margin-left: 30px;
+					}
 
-					> .tag {
+					> img {
+						width: 50%;
+						height: auto;
+						border-radius: 25px;
+
+						@media #{$mobile} {
+							width: 100%;
+							margin: 0;
+						}
+					}
+				}
+
+				> .grid-right-side {
+					grid-area: right-side;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+
+					@media #{$mobile} {
+						padding: 0 10px;
+						justify-content: space-around;
+					}
+
+					> .name {
+						font-weight: bold;
 						color: var(--color1);
-						padding: 10px 15px;
-						margin: 0;
+						/* margin: 50px 0 0 0; */
+					}
 
-						border-radius: 20px;
-						background-color: var(--color5);
-						/* box-shadow: #171717 0px 4px 6px 0px; */
+					> .tag-container {
+						width: 80%;
 
-						text-decoration: none;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						flex-direction: row;
+						flex-wrap: wrap;
+						gap: 5px;
+
+						margin: 20px 0 0 0;
+
+						@media #{$mobile} {
+							width: 100%;
+							margin: 0;
+						}
+
+						> a {
+							text-decoration: none;
+
+							> .tag {
+								color: var(--color1);
+								padding: 10px 15px;
+								margin: 0;
+
+								font-size: 16px;
+
+								border-radius: 20px;
+								background-color: var(--color5);
+								/* box-shadow: #171717 0px 4px 6px 0px; */
+
+								text-decoration: none;
+
+								@media #{$mobile} {
+									font-size: 14px;
+								}
+							}
+						}
 					}
 				}
 			}
 
-			> .line {
-				width: 80%;
-				margin: 20px 0;
-				border: 1px solid var(--color5);
-				border-radius: 1px;
-			}
-
-			> .info-container {
-				width: 70%;
+			.profile-info-container {
+				margin: auto 0;
 
 				display: flex;
-				justify-content: center;
-				align-items: center;
 				flex-direction: column;
 				flex-wrap: wrap;
-				gap: 10px;
+				align-items: center;
 
-				margin: 0;
+				width: 100%;
+
+				> .title {
+					font-size: 0.8em;
+					color: $yellow;
+					/* color: #727272; */
+					text-decoration: none;
+					margin: 0;
+				}
+
+				> .line {
+					width: 80%;
+					margin: 20px 0;
+					border: 1px solid var(--color5);
+					border-radius: 1px;
+				}
+
+				> .info-container {
+					width: 70%;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+					flex-wrap: wrap;
+					gap: 10px;
+
+					margin: 0;
+
+					@media #{$mobile} {
+						width: 50%;
+					}
+				}
+
+				> .social-container {
+					width: 70%;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: row;
+					gap: 10px;
+
+					margin: 0;
+				}
 			}
 
-			> .social-container {
-				width: 70%;
-
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				flex-direction: row;
-				gap: 10px;
-
-				margin: 0;
+			> .profile-button-container {
+				margin-top: 20px;
 			}
 		}
 

@@ -2,29 +2,41 @@
 	<div class="profile-container">
 		<div class="grid-container">
 			<div class="grid-left-side">
-				<img src="../assets/profile-placeholder.jpg" />
-				<h2 class="name">Robert Cmrečki</h2>
+				<div class="grid-container">
+					<div class="grid-left-side">
+						<img src="../assets/profile-placeholder.jpg" />
+					</div>
+					<div class="grid-right-side">
+						<h2 class="name">Robert Cmrečki</h2>
+
+						<div class="tag-container">
+							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Developer</div></router-link>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Designer</div></router-link>
+							<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"><div class="tag">3D Designer</div></router-link>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"><div class="tag">Graphic Designer</div></router-link>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><div class="tag">Photographer</div></router-link>
+						</div>
+					</div>
+				</div>
+
 				<!-- <a class="title" href="https://urn.nsk.hr/urn:nbn:hr:122:388921"><h3>bacc. ing. techn. graph.</h3></a> -->
-				<div class="tag-container">
-					<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><h4 class="tag">Web Developer</h4></router-link>
-					<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><h4 class="tag">Web Designer</h4></router-link>
-					<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"><h4 class="tag">3D Designer</h4></router-link>
-					<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"><h4 class="tag">Graphic Designer</h4></router-link>
-					<router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><h4 class="tag">Photographer</h4></router-link>
-				</div>
+				<div class="profile-info-container" :style="{ display: openedProfile ? 'flex' : 'none' }">
+					<hr class="line" />
 
-				<hr class="line" />
-
-				<div class="info-container">
-					<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description">
-						<component :is="tag.image" />
-					</ProfileInfoTag>
+					<div class="info-container">
+						<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description">
+							<component :is="tag.image" />
+						</ProfileInfoTag>
+					</div>
+					<hr class="line" />
+					<div class="social-container">
+						<a href="https://www.linkedin.com/in/robert-cmrecki/" target="_blank"> <LinkedInIcon /></a>
+						<a href="https://github.com/Bicarobi/" target="_blank"> <GitHubIcon /></a>
+						<a href="https://www.instagram.com/ro2tsa/" target="_blank"><InstagramIcon /></a>
+					</div>
 				</div>
-				<hr class="line" />
-				<div class="social-container">
-					<a href="https://www.linkedin.com/in/robert-cmrecki/" target="_blank"> <LinkedInIcon /></a>
-					<a href="https://github.com/Bicarobi/" target="_blank"> <GitHubIcon /></a>
-					<a href="https://www.instagram.com/ro2tsa/" target="_blank"><InstagramIcon /></a>
+				<div class="profile-button-container">
+					<ProfileButtonIcon @click="this.openProfile" :openedProfile="this.openedProfile" />
 				</div>
 			</div>
 			<div class="grid-right-side">
@@ -42,10 +54,16 @@ import LocationIcon from "./svgs/LocationIcon.vue";
 import LinkedInIcon from "./svgs/LinkedInIcon.vue";
 import GitHubIcon from "./svgs/GitHubIcon.vue";
 import InstagramIcon from "./svgs/InstagramIcon.vue";
+import ProfileButtonIcon from "./svgs/ProfileButtonIcon.vue";
 
 export default {
 	name: "Profile",
-	components: { ProfileInfoTag, EmailIcon, PhoneIcon, LocationIcon, LinkedInIcon, GitHubIcon, InstagramIcon },
+	components: { ProfileInfoTag, EmailIcon, PhoneIcon, LocationIcon, LinkedInIcon, GitHubIcon, InstagramIcon, ProfileButtonIcon },
+	data() {
+		return {
+			openedProfile: true,
+		};
+	},
 	computed: {
 		processedTags() {
 			const tags = [
@@ -71,6 +89,25 @@ export default {
 					image: tag.image,
 				};
 			});
+		},
+	},
+	beforeMount() {
+		if (localStorage.openedProfile == "enabled") {
+			this.openedProfile = true;
+			this.openProfile();
+		} else {
+			this.openedProfile = false;
+			this.openProfile();
+		}
+	},
+	methods: {
+		openProfile() {
+			if (this.openedProfile) {
+				localStorage.openedProfile = "enabled";
+			} else {
+				localStorage.openedProfile = "disabled";
+			}
+			this.openedProfile = !this.openedProfile;
 		},
 	},
 };

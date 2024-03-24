@@ -13,6 +13,14 @@
 		grid-area: right-side;
 		height: 100%;
 		margin-top: 100px;
+
+		@media #{$mobile} {
+			height: fit-content;
+
+			background-color: var(--color7);
+			border-radius: 15px;
+			margin: 20px 10px 0px 10px;
+		}
 	}
 
 	> .grid-left-side {
@@ -25,7 +33,11 @@
 
 		@media #{$mobile} {
 			position: relative;
-			width: 100%;
+			width: fit-content;
+			max-width: 100%;
+			border-radius: 15px;
+			background-color: var(--color7);
+			margin: 10px;
 		}
 	}
 }

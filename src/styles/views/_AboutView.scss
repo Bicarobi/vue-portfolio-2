@@ -4,7 +4,7 @@
 	padding: 0px 80px 30px 80px;
 
 	@media #{$mobile} {
-		padding: 0px 30px 30px 30px;
+		padding: 30px 30px 30px 30px;
 	}
 
 	> .current-page {
@@ -43,6 +43,10 @@
 				font-size: $font-size-desktop;
 				text-align: justify;
 				color: var(--color1);
+
+				@media #{$mobile} {
+					margin: 0px 0px 20px 0px;
+				}
 			}
 		}
 

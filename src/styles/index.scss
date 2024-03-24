@@ -31,7 +31,7 @@ $tablet: "(max-width: 1000px)";
 
 @media #{$mobile} {
 	:root {
-		--icon-size: #{$icon-size-mobile};
+		/* 		--icon-size: #{$icon-size-mobile}; */
 		--icon-size2: #{$icon-size-mobile * 2};
 	}
 }
@@ -59,7 +59,7 @@ $tablet: "(max-width: 1000px)";
 	--color4: #{$gray1};
 	--color5: #{$gray2};
 	--color6: #{$gray3};
-	--color7: #{$gray4};
+	--color7: #{$gray3};
 	--color8: #{$gray5};
 	--color9: #{$gray6};
 	--color10: #{$gray7};
@@ -92,11 +92,13 @@ body {
 
 	@media #{$mobile} {
 		background-color: var(--color12);
+		margin-bottom: 70px;
 	}
 }
 
 html {
 	overflow-y: scroll;
+	height: fit-content;
 }
 
 html,
@@ -122,6 +124,10 @@ body {
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
+
+	@media #{$mobile} {
+		display: none;
+	}
 }
 
 /* Track */
