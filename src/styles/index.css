@@ -20,11 +20,17 @@
   --color6: #fff;
   --color7: #ebebeb;
   --color8: #727272;
-  --color9: #c9c9c9;
+  --color9: #d6d6d6;
   --color10: #383838;
   --color11: #171717;
   --color12: #fff;
   --color13: #ebebeb;
+  --color14: #d6d6d6;
+}
+@media (max-width: 600px) {
+  [data-theme=light] {
+    --color13: #d6d6d6;
+  }
 }
 
 [data-theme=dark] {
@@ -41,6 +47,7 @@
   --color11: #171717;
   --color12: #111;
   --color13: #ebebeb;
+  --color14: #2b2b2b;
 }
 
 #app > .grid-container {
@@ -332,6 +339,7 @@
 @media (max-width: 600px) {
   .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side {
     padding: 0 10px;
+    gap: 10px;
     justify-content: space-around;
   }
 }
@@ -344,7 +352,7 @@
 @media (max-width: 600px) {
   .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side > .name {
     margin: 0;
-    font-size: 40px;
+    font-size: 7vw;
     justify-content: space-around;
   }
 }
@@ -379,7 +387,8 @@
 }
 @media (max-width: 600px) {
   .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side > .tag-container > a > .tag {
-    font-size: 14px;
+    font-size: 3vw;
+    background-color: var(--color14);
   }
 }
 .profile-container > .grid-container > .grid-left-side .profile-info-container {
@@ -415,7 +424,8 @@
 }
 @media (max-width: 600px) {
   .profile-container > .grid-container > .grid-left-side .profile-info-container > .info-container {
-    width: 50%;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 .profile-container > .grid-container > .grid-left-side .profile-info-container > .social-container {
@@ -425,10 +435,10 @@
   align-items: center;
   flex-direction: row;
   gap: 10px;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 .profile-container > .grid-container > .grid-left-side > .profile-button-container {
-  margin-top: 20px;
+  margin: 0;
 }
 .profile-container > .grid-container > .grid-right-side {
   grid-area: right-side;
@@ -710,6 +720,8 @@
     bottom: 0;
     width: 100vw;
     background-color: var(--color7);
+    gap: 30px;
+    padding: 0 20px;
   }
 }
 .nav-grid-container > .nav-grid-left-side {
@@ -721,6 +733,13 @@
   align-items: center;
   gap: 30px;
   font-size: 16px;
+}
+@media (max-width: 600px) {
+  .nav-grid-container > .nav-grid-left-side {
+    gap: 10px;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
 }
 .nav-grid-container > .nav-grid-left-side > a {
   font-weight: bold;
@@ -742,9 +761,14 @@
   align-items: center;
   gap: 20px;
 }
+@media (max-width: 600px) {
+  .nav-grid-container > .nav-grid-right-side {
+    gap: 10px;
+    padding-right: 0px;
+  }
+}
 .nav-grid-container > .nav-grid-right-side > .locale-changer select {
   background-color: var(--color13);
-  color: var(--color14);
   border: none;
   border-radius: 20px;
   padding: 3px 5px;

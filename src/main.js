@@ -1,8 +1,15 @@
-import { createApp } from "vue";
+import { createApp, reactive } from "vue";
 import App from "./App.vue";
 import router from "./router";
 
 import "@/styles/index.css";
 import i18n from "./i18n";
 
-createApp(App).use(i18n).use(router).use(i18n).mount("#app");
+const app = createApp(App);
+
+app.config.globalProperties.$myGlobalVariable = reactive({
+	windowWidth: null,
+	mobileWindowWidth: 600,
+});
+
+app.use(i18n).use(router).use(i18n).mount("#app");

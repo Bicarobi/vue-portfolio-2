@@ -1,6 +1,6 @@
 $white: #fff;
 $white2: #ebebeb;
-$white3: #c9c9c9;
+$white3: #d6d6d6;
 
 $yellow: #fbb300;
 $orange: #fb7100;
@@ -52,6 +52,11 @@ $tablet: "(max-width: 1000px)";
 	--color11: #{$gray8};
 	--color12: #{$white};
 	--color13: #{$white2};
+	--color14: #{$white3};
+
+	@media #{$mobile} {
+		--color13: #{$white3};
+	}
 }
 
 [data-theme="dark"] {
@@ -68,6 +73,7 @@ $tablet: "(max-width: 1000px)";
 	--color11: #{$gray8};
 	--color12: #{$gray9};
 	--color13: #{$white2};
+	--color14: #{$gray2};
 }
 
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";

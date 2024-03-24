@@ -17,5 +17,12 @@ import NavBar from "./components/NavBar.vue";
 export default {
 	name: "App",
 	components: { NavBar, Profile },
+	mounted() {
+		this.$myGlobalVariable.windowWidth = window.innerWidth;
+
+		window.onresize = () => {
+			this.$myGlobalVariable.windowWidth = window.innerWidth;
+		};
+	},
 };
 </script>

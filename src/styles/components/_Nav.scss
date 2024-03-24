@@ -20,6 +20,8 @@
 		bottom: 0;
 		width: 100vw;
 		background-color: var(--color7);
+		gap: 30px;
+		padding: 0 20px;
 	}
 
 	> .nav-grid-left-side {
@@ -33,6 +35,12 @@
 		gap: 30px;
 
 		font-size: 16px;
+
+		@media #{$mobile} {
+			gap: 10px;
+			justify-content: space-between;
+			white-space: nowrap;
+		}
 
 		> a {
 			font-weight: bold;
@@ -57,10 +65,14 @@
 		align-items: center;
 		gap: 20px;
 
+		@media #{$mobile} {
+			gap: 10px;
+			padding-right: 0px;
+		}
+
 		> .locale-changer {
 			select {
 				background-color: var(--color13);
-				color: var(--color14);
 
 				border: none;
 				border-radius: 20px;

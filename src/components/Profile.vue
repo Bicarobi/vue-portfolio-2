@@ -14,13 +14,13 @@
 							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Designer</div></router-link>
 							<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"><div class="tag">3D Designer</div></router-link>
 							<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"><div class="tag">Graphic Designer</div></router-link>
-							<router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><div class="tag">Photographer</div></router-link>
+							<!-- <router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><div class="tag">Photographer</div></router-link> -->
 						</div>
 					</div>
 				</div>
 
 				<!-- <a class="title" href="https://urn.nsk.hr/urn:nbn:hr:122:388921"><h3>bacc. ing. techn. graph.</h3></a> -->
-				<div class="profile-info-container" :style="{ display: openedProfile ? 'flex' : 'none' }">
+				<div class="profile-info-container" :style="{ display: openedProfile || this.$myGlobalVariable.windowWidth > this.$myGlobalVariable.mobileWindowWidth ? 'flex' : 'none' }">
 					<hr class="line" />
 
 					<div class="info-container">
@@ -35,7 +35,7 @@
 						<a href="https://www.instagram.com/ro2tsa/" target="_blank"><InstagramIcon /></a>
 					</div>
 				</div>
-				<div class="profile-button-container">
+				<div class="profile-button-container" :style="{ display: this.$myGlobalVariable.windowWidth <= this.$myGlobalVariable.mobileWindowWidth ? 'block' : 'none' }">
 					<ProfileButtonIcon @click="this.openProfile" :openedProfile="this.openedProfile" />
 				</div>
 			</div>
