@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
 :root {
+  --font-size1: 16px;
   --icon-size: 26px;
   --icon-size2: 52px;
 }
@@ -335,9 +336,17 @@
   }
 }
 .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side > .name {
+  font-size: 30px;
   font-weight: bold;
   color: var(--color1);
-  /* margin: 50px 0 0 0; */
+  margin: 20px 0;
+}
+@media (max-width: 600px) {
+  .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side > .name {
+    margin: 0;
+    font-size: 40px;
+    justify-content: space-around;
+  }
 }
 .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-right-side > .tag-container {
   width: 80%;

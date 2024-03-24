@@ -25,6 +25,8 @@ $mobile: "(max-width: 600px)";
 $tablet: "(max-width: 1000px)";
 
 :root {
+	--font-size1: #{$font-size-desktop};
+
 	--icon-size: #{$icon-size-desktop};
 	--icon-size2: #{$icon-size-desktop * 2};
 }

@@ -7,7 +7,7 @@
 						<img src="../assets/profile-placeholder.jpg" />
 					</div>
 					<div class="grid-right-side">
-						<h2 class="name">Robert Cmrečki</h2>
+						<div class="name">Robert Cmrečki</div>
 
 						<div class="tag-container">
 							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Developer</div></router-link>
