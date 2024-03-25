@@ -91,9 +91,8 @@ export default {
 				}
 
 				if (tag.type == "location") {
-					if (tag.type == "location") {
-						tag.type = this.$i18n.t("profile.location");
-					}
+					tag.type = this.$i18n.t("profile.location");
+
 					tag.description = this.$i18n.t("profile.location2") + " / Varaždin";
 				}
 				return {
