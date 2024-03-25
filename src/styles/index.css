@@ -446,13 +446,14 @@
     margin-left: 15px;
   }
 }
-.profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side > img {
+.profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side > a > img {
   width: 50%;
   height: auto;
   border-radius: 25px;
+  cursor: pointer;
 }
 @media (max-width: 600px) {
-  .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side > img {
+  .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side > a > img {
     width: 100%;
     margin: 0;
   }

@@ -4,7 +4,7 @@
 			<div class="grid-left-side">
 				<div class="grid-container">
 					<div class="grid-left-side">
-						<img src="../assets/profile-placeholder.jpg" />
+						<router-link :to="{ name: 'about' }"><img src="../assets/profile-placeholder.jpg" /></router-link>
 					</div>
 					<div class="grid-right-side">
 						<div class="name">Robert Cmrečki</div>

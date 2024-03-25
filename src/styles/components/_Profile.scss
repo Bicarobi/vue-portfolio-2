@@ -59,14 +59,17 @@
 						margin-left: 15px;
 					}
 
-					> img {
-						width: 50%;
-						height: auto;
-						border-radius: 25px;
+					> a {
+						> img {
+							width: 50%;
+							height: auto;
+							border-radius: 25px;
+							cursor: pointer;
 
-						@media #{$mobile} {
-							width: 100%;
-							margin: 0;
+							@media #{$mobile} {
+								width: 100%;
+								margin: 0;
+							}
 						}
 					}
 				}
