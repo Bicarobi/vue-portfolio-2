@@ -1,9 +1,13 @@
 .work-card-container {
-	max-width: calc(25% - 15px);
+	max-width: calc(100% / 4 - 15px);
 	color: var(--color1);
 	width: 100%;
 
 	position: relative;
+
+	@media #{$mobile} {
+		max-width: calc(100% / 2 - 5px);
+	}
 
 	> .text-container {
 		display: flex;
@@ -23,6 +27,10 @@
 			font-weight: bold;
 			color: $gray5;
 			margin-top: 5px;
+
+			@media #{$mobile} {
+				word-break: keep-all;
+			}
 		}
 	}
 

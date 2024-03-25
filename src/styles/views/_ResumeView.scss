@@ -3,6 +3,10 @@
 	height: 100%;
 	padding: 0px 80px 30px 80px;
 
+	@media #{$mobile} {
+		padding: 30px 30px 30px 30px;
+	}
+
 	> .current-page {
 		font-size: 2rem;
 		color: var(--color1);
@@ -22,6 +26,10 @@
 		margin: 0px auto 40px auto;
 		border: 1px solid var(--color5);
 		border-radius: 1px;
+
+		@media #{$mobile} {
+			width: 100%;
+		}
 	}
 
 	> .content-container {
@@ -35,6 +43,10 @@
 			border-radius: 15px;
 			padding: 20px 20px 5px 20px;
 			margin: 0px auto;
+
+			@media #{$mobile} {
+				max-width: 100%;
+			}
 		}
 
 		> .type-container {

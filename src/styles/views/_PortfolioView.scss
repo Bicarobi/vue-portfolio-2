@@ -3,6 +3,10 @@
 	height: 100%;
 	padding: 0px 80px 30px 80px;
 
+	@media #{$mobile} {
+		padding: 30px 30px 30px 30px;
+	}
+
 	> .current-page {
 		font-size: 2rem;
 		color: var(--color1);
@@ -49,5 +53,9 @@
 		gap: 20px;
 		flex-direction: row;
 		flex-wrap: wrap;
+
+		@media #{$mobile} {
+			gap: 10px;
+		}
 	}
 }
