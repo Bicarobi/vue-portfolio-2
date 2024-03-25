@@ -17,8 +17,17 @@
 		margin-top: 10px;
 		text-transform: capitalize;
 
+		@media #{$mobile} {
+			margin-top: 5px;
+		}
+
 		> .title {
 			font-size: 1.2em;
+
+			@media #{$mobile} {
+				word-break: keep-all;
+				font-size: 3.5vw;
+			}
 		}
 
 		> .type {
@@ -30,6 +39,8 @@
 
 			@media #{$mobile} {
 				word-break: keep-all;
+				font-size: 2.5vw;
+				margin-top: 0;
 			}
 		}
 	}

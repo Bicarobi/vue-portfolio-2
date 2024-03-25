@@ -673,8 +673,19 @@
   margin-top: 10px;
   text-transform: capitalize;
 }
+@media (max-width: 600px) {
+  .work-card-container > .text-container {
+    margin-top: 5px;
+  }
+}
 .work-card-container > .text-container > .title {
   font-size: 1.2em;
+}
+@media (max-width: 600px) {
+  .work-card-container > .text-container > .title {
+    word-break: keep-all;
+    font-size: 3.5vw;
+  }
 }
 .work-card-container > .text-container > .type {
   text-transform: uppercase;
@@ -686,6 +697,8 @@
 @media (max-width: 600px) {
   .work-card-container > .text-container > .type {
     word-break: keep-all;
+    font-size: 2.5vw;
+    margin-top: 0;
   }
 }
 .work-card-container > .desc-container {
@@ -782,8 +795,6 @@
 }
 @media (max-width: 600px) {
   .nav-grid-container > .nav-grid-left-side {
-    gap: 10px;
-    justify-content: space-between;
     white-space: nowrap;
   }
 }
