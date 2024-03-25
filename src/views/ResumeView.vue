@@ -5,21 +5,17 @@
 		<div class="content-container">
 			<div class="type-container">
 				<EducationIcon />
-				<h1>{{ $t("resumeView.education") }}</h1>
+				<div>{{ $t("resumeView.education") }}</div>
 			</div>
-			<div style="padding-left: 55px">
-				<ResumeInfo v-for="info in processedEduInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
-			</div>
+			<ResumeInfo v-for="info in processedEduInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
 		</div>
 		<hr class="line" />
 		<div class="content-container">
 			<div class="type-container">
 				<WorkIcon />
-				<h1>{{ $t("resumeView.experience") }}</h1>
+				<div>{{ $t("resumeView.experience") }}</div>
 			</div>
-			<div style="padding-left: 55px">
-				<ResumeInfo v-for="info in processedWorkInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
-			</div>
+			<ResumeInfo v-for="info in processedWorkInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
 		</div>
 		<hr class="line" />
 		<div class="content-container">

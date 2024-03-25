@@ -68,7 +68,6 @@ export default {
 	methods: {
 		filterWorks(processedWorks) {
 			if (this.filter) {
-				console.log(this.processedWorks.filter((work) => work));
 				return this.processedWorks.filter((work) => work.filter == this.filter);
 			} else {
 				return processedWorks;
