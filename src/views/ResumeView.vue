@@ -20,7 +20,7 @@
 		<hr class="line" />
 		<div class="content-container">
 			<div class="type-container">
-				<h1>{{ $t("resumeView.skills.mySkills") }}</h1>
+				<div>{{ $t("resumeView.skills.mySkills") }}</div>
 			</div>
 			<div class="resume-progress-bar-container">
 				<ProgressBar v-for="skill in processedSkills" :key="skill.type" :type="skill.type" :percentage="skill.percentage" :skills="skill.skills" />

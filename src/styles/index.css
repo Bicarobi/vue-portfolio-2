@@ -112,6 +112,11 @@
   text-transform: capitalize;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  .about-container > .current-page {
+    font-size: 26px;
+  }
+}
 .about-container > .nav-line {
   width: 120px;
   border-radius: 15px;
@@ -184,6 +189,11 @@
   text-transform: capitalize;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  .portfolio-container > .current-page {
+    font-size: 26px;
+  }
+}
 .portfolio-container > .nav-line {
   width: 120px;
   border-radius: 15px;
@@ -240,6 +250,11 @@
   text-transform: capitalize;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  .resume-container > .current-page {
+    font-size: 26px;
+  }
+}
 .resume-container > .nav-line {
   width: 120px;
   border-radius: 15px;
@@ -266,7 +281,7 @@
   width: 100%;
   background-color: var(--color5);
   border-radius: 15px;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 20px 0px 20px;
   margin: 0px auto;
 }
 @media (max-width: 600px) {
@@ -288,6 +303,11 @@
 .resume-container > .content-container > .type-container > div {
   font-size: 28px;
   margin: 0;
+}
+@media (max-width: 600px) {
+  .resume-container > .content-container > .type-container > div {
+    font-size: 24px;
+  }
 }
 
 .profile-container {
@@ -342,7 +362,7 @@
 }
 @media (max-width: 600px) {
   .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side {
-    margin-left: 30px;
+    margin-left: 15px;
   }
 }
 .profile-container > .grid-container > .grid-left-side > .grid-container > .grid-left-side > img {
@@ -743,11 +763,16 @@
 @media (max-width: 600px) {
   .resume-info-container {
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 .resume-info-container > .resume-info-title {
   font-size: 1.5em;
+}
+@media (max-width: 600px) {
+  .resume-info-container > .resume-info-title {
+    font-size: 18px;
+  }
 }
 .resume-info-container > .resume-info-time {
   color: var(--color2);
@@ -756,6 +781,11 @@
 .resume-info-container > .resume-info-desc {
   font-size: 1.2em;
   color: #727272;
+}
+@media (max-width: 600px) {
+  .resume-info-container > .resume-info-desc {
+    font-size: 16px;
+  }
 }
 
 .nav-grid-container {

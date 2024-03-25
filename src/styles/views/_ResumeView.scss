@@ -12,6 +12,10 @@
 		color: var(--color1);
 		text-transform: capitalize;
 		font-weight: bold;
+
+		@media #{$mobile} {
+			font-size: 26px;
+		}
 	}
 
 	> .nav-line {
@@ -41,7 +45,7 @@
 			width: 100%;
 			background-color: var(--color5);
 			border-radius: 15px;
-			padding: 20px 20px 5px 20px;
+			padding: 20px 20px 0px 20px;
 			margin: 0px auto;
 
 			@media #{$mobile} {
@@ -63,6 +67,10 @@
 			> div {
 				font-size: 28px;
 				margin: 0;
+
+				@media #{$mobile} {
+					font-size: 24px;
+				}
 			}
 		}
 	}
