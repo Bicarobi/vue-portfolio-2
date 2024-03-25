@@ -31,11 +31,11 @@ const routes = [
 		name: "contact",
 		component: ContactView,
 	}, */
-	/* {
+	{
 		path: "/:catchAll(.*)*",
-		name: "about",
-		component: AboutView,
-	}, */
+		name: "welcome",
+		component: WelcomeView,
+	},
 ];
 
 const router = createRouter({
