@@ -915,6 +915,7 @@
     background-color: var(--color7);
     gap: 5px;
     padding: 0 20px;
+    box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.1882352941);
   }
 }
 .nav-grid-container > .nav-grid-left-side {
