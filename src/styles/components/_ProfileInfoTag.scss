@@ -1,49 +1,53 @@
 .profile-info-tag-container {
 	width: 100%;
 
-	> .grid-container {
-		display: grid;
-		grid-template-columns: 1fr 3fr;
-		grid-template-rows: auto;
-		grid-template-areas: "left-side right-side";
-		width: 100%;
-		height: 100%;
+	> a {
+		text-decoration: none;
 
-		> .grid-left-side {
-			grid-area: left-side;
+		> .grid-container {
+			display: grid;
+			grid-template-columns: 1fr 3fr;
+			grid-template-rows: auto;
+			grid-template-areas: "left-side right-side";
 			width: 100%;
+			height: 100%;
 
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
+			> .grid-left-side {
+				grid-area: left-side;
+				width: 100%;
 
-			> img {
-				width: var(--icon-size);
-				height: auto;
-			}
-		}
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
 
-		> .grid-right-side {
-			grid-area: right-side;
-			width: 100%;
-
-			display: flex;
-			justify-content: center;
-			align-items: flex-start;
-			flex-direction: column;
-
-			> .type {
-				text-transform: uppercase;
-				font-weight: bold;
-				color: $gray5;
-				font-size: 0.8em;
+				> img {
+					width: var(--icon-size);
+					height: auto;
+				}
 			}
 
-			> .description {
-				color: var(--color1);
-				font-size: 0.9em;
-				word-break: break-all;
+			> .grid-right-side {
+				grid-area: right-side;
+				width: 100%;
+
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				flex-direction: column;
+
+				> .type {
+					text-transform: uppercase;
+					font-weight: bold;
+					color: $gray5;
+					font-size: 0.8em;
+				}
+
+				> .description {
+					color: var(--color1);
+					font-size: 0.9em;
+					word-break: break-all;
+				}
 			}
 		}
 	}

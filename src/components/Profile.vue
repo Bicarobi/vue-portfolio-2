@@ -24,7 +24,7 @@
 					<hr class="line" />
 
 					<div class="info-container">
-						<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description">
+						<ProfileInfoTag v-for="tag in processedTags" :key="tag.type" :type="tag.type" :description="tag.description" :link="tag.link">
 							<component :is="tag.image" />
 						</ProfileInfoTag>
 					</div>
@@ -67,9 +67,9 @@ export default {
 	computed: {
 		processedTags() {
 			const tags = [
-				{ type: "email", description: "cmrecki.robert@gmail.com", image: "EmailIcon" },
-				{ type: "phone", description: "+385 91 211 1165", image: "PhoneIcon" },
-				{ type: "location", description: " / Varaždin", image: "LocationIcon" },
+				{ type: "email", description: "cmrecki.robert@gmail.com", image: "EmailIcon", link: "mailto:cmrecki.robert@gmail.com" },
+				{ type: "phone", description: "+385 91 211 1165", image: "PhoneIcon", link: "tel:0912111165" },
+				{ type: "location", description: " / Varaždin", image: "LocationIcon", link: "https://maps.app.goo.gl/3qw2hEo96L59ebqo9" },
 			];
 
 			return tags.map((tag) => {
@@ -87,6 +87,7 @@ export default {
 					type: tag.type,
 					description: tag.description,
 					image: tag.image,
+					link: tag.link,
 				};
 			});
 		},
