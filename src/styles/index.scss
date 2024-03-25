@@ -1,6 +1,7 @@
 $white: #fff;
 $white2: #ebebeb;
 $white3: #d6d6d6;
+$white4: #c3c3c3;
 
 $yellow: #fbb300;
 $orange: #fb7100;
@@ -53,6 +54,7 @@ $tablet: "(max-width: 1000px)";
 	--color12: #{$white};
 	--color13: #{$white2};
 	--color14: #{$white3};
+	--color15: #{$white4};
 
 	@media #{$mobile} {
 		--color13: #{$white3};
@@ -74,6 +76,7 @@ $tablet: "(max-width: 1000px)";
 	--color12: #{$gray9};
 	--color13: #{$white2};
 	--color14: #{$gray2};
+	--color15: #{$gray6};
 }
 
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
@@ -84,6 +87,7 @@ $tablet: "(max-width: 1000px)";
 @import "./views/ContactView";
 @import "./views/PortfolioView";
 @import "./views/ResumeView";
+@import "./views/WelcomeView";
 
 @import "./components/Profile";
 @import "./components/ProfileInfoTag";

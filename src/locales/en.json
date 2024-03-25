@@ -1,6 +1,12 @@
 {
 	"welcomeView": {
-		"text": "Welcome to my portfolio!"
+		"text1": "Hey! I'm",
+		"text2": "Welcome to my portfolio!",
+		"text3": {
+			"1": "Check more about me ",
+			"2": "below!",
+			"3": "above!"
+		}
 	},
 	"navBar": {
 		"about": "About",

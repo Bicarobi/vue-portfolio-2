@@ -1,6 +1,12 @@
 {
 	"welcomeView": {
-		"text": "Dobro došli na moj portfelj!"
+		"text1": "Hej! Ja sam",
+		"text2": "Dobro došli na moj portfelj!",
+		"text3": {
+			"1": "Saznaj više o meni ",
+			"2": "ispod!",
+			"3": "iznad!"
+		}
 	},
 	"navBar": {
 		"about": "O Meni",

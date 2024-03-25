@@ -17,6 +17,10 @@
 		border-radius: 20px;
 		background-color: var(--color9);
 
+		@media #{$mobile} {
+			background-color: var(--color15);
+		}
+
 		> .bar-fill {
 			/* background-color: #fbb300; */
 			background-image: linear-gradient(to right, var(--color2), var(--color3));
@@ -39,6 +43,10 @@
 
 			border-radius: 20px;
 			background-color: var(--color9);
+
+			@media #{$mobile} {
+				background-color: var(--color15);
+			}
 		}
 	}
 }
