@@ -7,22 +7,27 @@
 		padding: 30px 30px 30px 30px;
 	}
 
-	> .current-page {
-		font-size: 2rem;
-		color: var(--color1);
-		text-transform: capitalize;
-		font-weight: bold;
+	> .current-page-container {
+		width: fit-content;
 
-		@media #{$mobile} {
-			font-size: 26px;
+		> .current-page {
+			font-size: 2rem;
+			color: var(--color1);
+			text-transform: capitalize;
+			font-weight: bold;
+			width: fit-content;
+
+			@media #{$mobile} {
+				font-size: 26px;
+			}
 		}
-	}
 
-	> .nav-line {
-		width: 120px;
-		border-radius: 15px;
-		border: solid 3px var(--color2);
-		margin: 0px 0px 50px 0px;
+		> .nav-line {
+			width: 100%;
+			border-radius: 15px;
+			border: solid 3px var(--color2);
+			margin: 0px 0px 50px 0px;
+		}
 	}
 
 	> .line {
@@ -33,17 +38,22 @@
 	}
 
 	> .type-container {
+		width: 100%;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: 20px;
 
-		font-size: 14px;
-
 		> a {
+			font-size: 20px;
 			font-weight: bold;
 			color: var(--color1);
 			text-decoration: none;
+
+			@media #{$mobile} {
+				font-size: 16px;
+			}
 		}
 
 		> a.router-link-exact-active {

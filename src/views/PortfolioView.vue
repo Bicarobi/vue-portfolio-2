@@ -1,7 +1,9 @@
 <template>
 	<div class="portfolio-container">
-		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
-		<hr class="nav-line" />
+		<div class="current-page-container">
+			<div class="current-page">{{ $t("navBar." + route.name) }}</div>
+			<hr class="nav-line" />
+		</div>
 		<div class="type-container">
 			<router-link :to="{ name: 'portfolio' }">{{ $t("portfolioView.skills.all") }}</router-link>
 			<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }">{{ $t("portfolioView.skills.webDesign") }}</router-link>

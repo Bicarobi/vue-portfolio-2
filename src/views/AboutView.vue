@@ -1,7 +1,9 @@
 <template>
 	<div class="about-container">
-		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
-		<hr class="nav-line" />
+		<div class="current-page-container">
+			<div class="current-page">{{ $t("navBar." + route.name) }}</div>
+			<hr class="nav-line" />
+		</div>
 		<div class="grid-container">
 			<div class="grid-left-side">
 				<div class="text-container">

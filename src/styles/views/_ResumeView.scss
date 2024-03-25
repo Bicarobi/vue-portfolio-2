@@ -7,22 +7,27 @@
 		padding: 30px 30px 30px 30px;
 	}
 
-	> .current-page {
-		font-size: 2rem;
-		color: var(--color1);
-		text-transform: capitalize;
-		font-weight: bold;
+	> .current-page-container {
+		width: fit-content;
 
-		@media #{$mobile} {
-			font-size: 26px;
+		> .current-page {
+			font-size: 2rem;
+			color: var(--color1);
+			text-transform: capitalize;
+			font-weight: bold;
+			width: fit-content;
+
+			@media #{$mobile} {
+				font-size: 26px;
+			}
 		}
-	}
 
-	> .nav-line {
-		width: 120px;
-		border-radius: 15px;
-		border: solid 3px var(--color2);
-		margin: 0px 0px 50px 0px;
+		> .nav-line {
+			width: 100%;
+			border-radius: 15px;
+			border: solid 3px var(--color2);
+			margin: 0px 0px 50px 0px;
+		}
 	}
 
 	> .line {
@@ -33,6 +38,7 @@
 
 		@media #{$mobile} {
 			width: 100%;
+			border: 1px solid var(--color14);
 		}
 	}
 

@@ -1,7 +1,9 @@
 <template>
 	<div class="resume-container">
-		<div class="current-page">{{ $t("navBar." + route.name) }}</div>
-		<hr class="nav-line" />
+		<div class="current-page-container">
+			<div class="current-page">{{ $t("navBar." + route.name) }}</div>
+			<hr class="nav-line" />
+		</div>
 		<div class="content-container">
 			<div class="type-container">
 				<EducationIcon />
