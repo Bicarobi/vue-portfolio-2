@@ -10,10 +10,18 @@
 						<div class="name">Robert Cmrečki</div>
 
 						<div class="tag-container">
-							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Developer</div></router-link>
-							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"><div class="tag">Web Designer</div></router-link>
-							<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"><div class="tag">3D Designer</div></router-link>
-							<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"><div class="tag">Graphic Designer</div></router-link>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"
+								><div class="tag">{{ $t("profile.skills.webDev") }}</div></router-link
+							>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"
+								><div class="tag">{{ $t("profile.skills.webDesign") }}</div></router-link
+							>
+							<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }"
+								><div class="tag">{{ $t("profile.skills.design3D") }}</div></router-link
+							>
+							<router-link :to="{ name: 'portfolio', params: { filter: 'graphic-design' } }"
+								><div class="tag">{{ $t("profile.skills.graphicDesign") }}</div></router-link
+							>
 							<!-- <router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }"><div class="tag">Photographer</div></router-link> -->
 						</div>
 					</div>
@@ -67,12 +75,17 @@ export default {
 	computed: {
 		processedTags() {
 			const tags = [
-				{ type: "email", description: "cmrecki.robert@gmail.com", image: "EmailIcon", link: "mailto:cmrecki.robert@gmail.com" },
+				{ type: "email", description: "cmrecki.robert@&#8203;gmail.com", image: "EmailIcon", link: "mailto:cmrecki.robert@gmail.com" },
 				{ type: "phone", description: "+385 91 211 1165", image: "PhoneIcon", link: "tel:0912111165" },
 				{ type: "location", description: " / Varaždin", image: "LocationIcon", link: "https://maps.app.goo.gl/3qw2hEo96L59ebqo9" },
 			];
 
 			return tags.map((tag) => {
+				if (tag.type == "email") {
+					const parsed = new DOMParser().parseFromString(tag.description, "text/html").body.textContent;
+					tag.description = parsed;
+				}
+
 				if (tag.type == "phone") {
 					tag.type = this.$i18n.t("profile.phone");
 				}

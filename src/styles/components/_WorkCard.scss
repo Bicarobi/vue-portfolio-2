@@ -5,6 +5,10 @@
 
 	position: relative;
 
+	@media #{$tablet} {
+		max-width: calc(100% / 2 - 15px);
+	}
+
 	@media #{$mobile} {
 		max-width: calc(100% / 2 - 5px);
 	}

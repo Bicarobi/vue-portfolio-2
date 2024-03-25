@@ -4,6 +4,11 @@
 	grid-template-rows: auto;
 	grid-template-areas: "left-side right-side";
 
+	@media #{$tablet} {
+		grid-template-columns: 1fr 2fr;
+		grid-template-areas: "left-side right-side";
+	}
+
 	@media #{$mobile} {
 		grid-template-columns: 1fr;
 		grid-template-areas: "left-side" "right-side";
@@ -30,6 +35,11 @@
 		width: 20%;
 		height: 100%;
 		position: fixed;
+
+		@media #{$tablet} {
+			width: 30%;
+			z-index: 20;
+		}
 
 		@media #{$mobile} {
 			position: relative;

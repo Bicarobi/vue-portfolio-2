@@ -1,16 +1,19 @@
 <template>
 	<div class="profile-info-tag-container">
-		<a :href="link">
-			<div class="grid-container">
-				<div class="grid-left-side">
-					<slot></slot>
-				</div>
-				<div class="grid-right-side">
-					<div class="type">{{ type }}</div>
-					<div class="description">{{ description }}</div>
-				</div>
+		<div class="grid-container">
+			<div class="grid-left-side">
+				<a :href="link"> <slot></slot></a>
 			</div>
-		</a>
+
+			<div class="grid-right-side">
+				<a :href="link"
+					><div class="type">{{ type }}</div></a
+				>
+				<a :href="link"
+					><div class="description">{{ description }}</div></a
+				>
+			</div>
+		</div>
 	</div>
 </template>
 
