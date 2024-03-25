@@ -910,7 +910,7 @@
     bottom: 0;
     width: 100vw;
     background-color: var(--color7);
-    gap: 30px;
+    gap: 5px;
     padding: 0 20px;
   }
 }
@@ -927,6 +927,8 @@
 @media (max-width: 600px) {
   .nav-grid-container > .nav-grid-left-side {
     white-space: nowrap;
+    gap: 0;
+    justify-content: space-evenly;
   }
 }
 .nav-grid-container > .nav-grid-left-side > a {

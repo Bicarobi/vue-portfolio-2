@@ -22,7 +22,7 @@
 		bottom: 0;
 		width: 100vw;
 		background-color: var(--color7);
-		gap: 30px;
+		gap: 5px;
 		padding: 0 20px;
 	}
 
@@ -40,6 +40,8 @@
 
 		@media #{$mobile} {
 			white-space: nowrap;
+			gap: 0;
+			justify-content: space-evenly;
 		}
 
 		> a {
