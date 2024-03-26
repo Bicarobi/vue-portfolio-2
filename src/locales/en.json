@@ -104,11 +104,19 @@
 				"work1": {
 					"title": "Old Portfolio",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work2": {
+					"title": "Don't Waste. Donate",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			},
 			"design3D": {
 				"type": "3D Design",
 				"work1": {
+					"title": "work1",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work2": {
 					"title": "work2",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
@@ -126,13 +134,17 @@
 				"work3": {
 					"title": "EcoCompass",
 					"desc": "Ovo je tekst za rad 3"
+				},
+				"work4": {
+					"title": "Cordova E-Reader",
+					"desc": "Ovo je tekst za rad 3"
 				}
 			},
 			"graphicDesign": {
 				"type": "Graphic Design",
 				"work1": {
-					"title": "work3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Zvirač Pelinkovac",
+					"desc": "Ovo je tekst za rad 3"
 				}
 			},
 			"photo": {
