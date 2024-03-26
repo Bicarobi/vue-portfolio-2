@@ -91,4 +91,70 @@
 			opacity: 1;
 		}
 	}
+
+	> .modal {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 30;
+
+		background-color: rgba(0, 0, 0, 0.8);
+
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+
+		padding-top: 70px;
+
+		@media #{$mobile} {
+			padding-top: 0;
+			justify-content: center;
+		}
+
+		> img {
+			max-width: 70%;
+			max-height: 80%;
+			display: block;
+
+			@media #{$mobile} {
+				max-width: 70%;
+				max-height: 70%;
+			}
+		}
+
+		> .text-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin-top: 50px;
+			color: $white;
+
+			@media #{$mobile} {
+				margin-top: 20px;
+			}
+
+			> a {
+				text-decoration: none;
+
+				> .title {
+					color: $white;
+					font-size: 1.2em;
+				}
+			}
+
+			> .type {
+				text-transform: uppercase;
+				font-size: 1em;
+				font-weight: bold;
+				margin-top: 5px;
+			}
+		}
+	}
 }
