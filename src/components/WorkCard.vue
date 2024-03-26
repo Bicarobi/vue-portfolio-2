@@ -2,7 +2,7 @@
 	<div class="work-card-container">
 		<div class="desc-container" @click="showDesc(true, false)" @mouseenter="showDesc(false, true)" @mouseleave="showDesc(false, false)">
 			<img :src="require('../assets/' + img[img.length - 1])" />
-			<div class="desc" :style="this.descClicked || this.descHovered ? 'opacity: 1' : 'opacity: 0'">
+			<div class="desc" :style="this.descHovered ? 'opacity: 1' : 'opacity: 0'">
 				{{ desc }}
 			</div>
 		</div>
