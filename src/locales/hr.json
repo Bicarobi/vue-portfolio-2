@@ -1,7 +1,7 @@
 {
 	"welcomeView": {
 		"text1": "Hej! Ja sam",
-		"text2": "Dobro došli na moj portfelj!",
+		"text2": "Dobro došli na moj portfolio!",
 		"text3": {
 			"1": "Saznaj više o meni ",
 			"2": "ispod!",
@@ -11,7 +11,7 @@
 	"navBar": {
 		"about": "O Meni",
 		"resume": "Rezime",
-		"portfolio": "Portfelj"
+		"portfolio": "Portfolio"
 	},
 	"profile": {
 		"location": "lokacija",
