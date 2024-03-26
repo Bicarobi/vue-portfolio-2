@@ -278,7 +278,7 @@
 }
 @media (max-width: 700px) {
   .portfolio-container > .works-container {
-    gap: 10px;
+    gap: 20px;
   }
 }
 
@@ -832,7 +832,7 @@
 }
 
 .work-card-container {
-  max-width: calc(25% - 15px);
+  max-width: calc(33.3333333333% - 15px);
   color: var(--color1);
   width: 100%;
   position: relative;
@@ -844,7 +844,7 @@
 }
 @media (max-width: 700px) {
   .work-card-container {
-    max-width: calc(50% - 5px);
+    max-width: calc(100% - 5px);
   }
 }
 .work-card-container > .text-container {
@@ -888,6 +888,7 @@
   height: -moz-fit-content;
   height: fit-content;
   cursor: pointer;
+  aspect-ratio: 1/1;
 }
 .work-card-container > .desc-container > .desc {
   width: 100%;
@@ -907,7 +908,10 @@
 .work-card-container > .desc-container > img {
   border-radius: 15px;
   width: 100%;
+  height: 100%;
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .work-card-container > .desc-container:hover > .desc {
   opacity: 1;
