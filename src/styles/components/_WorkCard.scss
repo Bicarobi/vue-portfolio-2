@@ -110,7 +110,7 @@
 		align-items: center;
 		justify-content: flex-start;
 
-		padding-top: 30px;
+		padding-top: 70px;
 
 		@media #{$mobile} {
 			padding-top: 0;
@@ -123,7 +123,7 @@
 			display: block;
 
 			@media #{$mobile} {
-				max-width: 70%;
+				max-width: 75%;
 				max-height: 70%;
 			}
 		}
