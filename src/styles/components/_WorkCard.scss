@@ -138,28 +138,6 @@
 			}
 		}
 
-		> .wide-expanded {
-			position: fixed;
-
-			max-width: 90vw;
-			max-height: 90vh;
-
-			/* top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%); */
-
-			@media #{$desktop} {
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			}
-
-			@media #{$mobile} {
-				max-width: 90vh;
-				max-height: 90vw;
-			}
-		}
-
 		> .expanded {
 			position: fixed;
 
@@ -170,7 +148,7 @@
 			left: 50%;
 			transform: translate(-50%, -50%); */
 
-			@media #{$desktop} {
+			/* @media #{$desktop} {
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
@@ -179,36 +157,24 @@
 			@media #{$mobile} {
 				max-width: 90vh;
 				max-height: 90vw;
-			}
+			} */
+		}
+
+		> .wide-expanded {
+			max-width: 90vh;
+			max-height: 90vw;
 		}
 
 		> .tall-expanded {
 			position: fixed;
 
-			max-width: 50vh;
-			max-height: 50vw;
-
-			/* top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%); */
-
-			@media #{$desktop} {
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			}
-
-			@media #{$mobile} {
-				max-width: 90vh;
-				max-height: 90vw;
-			}
+			max-width: 90vw;
+			max-height: 90vh;
 		}
 
 		> .rotate {
 			@media #{$mobile} {
 				transform: rotate(-90deg);
-				max-width: 90vh;
-				max-height: 90vw;
 			}
 		}
 

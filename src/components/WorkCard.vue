@@ -11,7 +11,17 @@
 			<div class="type">{{ type }}</div>
 		</div>
 		<div class="modal" :style="this.descClicked ? 'display: fixed' : 'display: none'">
-			<img ref="image" :src="require('../assets/' + img[this.index])" :class="{ expanded: this.expanded, rotate: this.expanded && this.imageWidth > this.imageHeight }" @load="getImageSize" />
+			<img
+				ref="image"
+				:src="require('../assets/' + img[this.index])"
+				:class="{
+					expanded: this.expanded,
+					'wide-expanded': this.expandedWide && this.expanded,
+					'tall-expanded': !this.expandedWide && this.expanded,
+					rotate: this.expanded && this.imageWidth > this.imageHeight,
+				}"
+				@load="getImageSize"
+			/>
 			<div class="text-container">
 				<a :href="link"
 					><div class="title">{{ title }}</div></a
@@ -68,10 +78,11 @@ export default {
 			const img = this.$refs.image;
 			this.imageWidth = img.naturalWidth;
 			this.imageHeight = img.naturalHeight;
+
 			if (this.imageWidth > this.imageHeight) {
-				this.expandedWide = false;
-			} else {
 				this.expandedWide = true;
+			} else {
+				this.expandedWide = false;
 			}
 		},
 	},
