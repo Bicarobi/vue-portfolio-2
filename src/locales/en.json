@@ -108,6 +108,10 @@
 				"work2": {
 					"title": "Don't Waste. Donate",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work3": {
+					"title": "Wag",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			},
 			"design3D": {
@@ -118,6 +122,10 @@
 				},
 				"work2": {
 					"title": "work2",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work3": {
+					"title": "work3",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			},

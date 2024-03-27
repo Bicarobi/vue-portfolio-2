@@ -42,6 +42,7 @@ export default {
 		showDesc(clicked, hovered) {
 			if (clicked) {
 				this.descClicked = !this.descClicked;
+				this.index = 0;
 			}
 			this.descHovered = hovered;
 		},
