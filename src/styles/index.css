@@ -962,6 +962,12 @@
     max-height: 80%;
   }
 }
+.work-card-container > .modal > .expanded {
+  position: fixed;
+  transform: rotate(-90deg);
+  max-width: 90vh;
+  max-height: 90vw;
+}
 .work-card-container > .modal > .text-container {
   display: flex;
   flex-direction: column;

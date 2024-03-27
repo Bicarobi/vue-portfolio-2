@@ -14,7 +14,7 @@
 		</div>
 		<hr class="line" />
 		<div class="works-container">
-			<WorkCard v-for="work in filterWorks(processedWorks)" :key="title" :title="work.title" :type="work.type" :desc="work.desc" :img="work.img" :link="work.link" />
+			<WorkCard v-for="work in filterWorks(processedWorks)" :key="work.title" :title="work.title" :type="work.type" :desc="work.desc" :img="work.img" :link="work.link" />
 		</div>
 	</div>
 </template>

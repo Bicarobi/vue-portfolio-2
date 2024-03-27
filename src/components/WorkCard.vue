@@ -11,12 +11,13 @@
 			<div class="type">{{ type }}</div>
 		</div>
 		<div class="modal" :style="this.descClicked ? 'display: fixed' : 'display: none'">
-			<img :src="require('../assets/' + img[this.index])" />
+			<img :src="require('../assets/' + img[this.index])" :class="{ expanded: this.expanded }" />
 			<div class="text-container">
 				<a :href="link"
 					><div class="title">{{ title }}</div></a
 				>
 				<div class="type">{{ desc }}</div>
+				<ExpandIcon @click="expandImage" />
 			</div>
 			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false)" />
 		</div>
@@ -27,14 +28,16 @@
 import LeftArrowIcon from "../components/svgs/LeftArrowIcon.vue";
 import RightArrowIcon from "../components/svgs/RightArrowIcon.vue";
 import CloseIcon from "../components/svgs/CloseIcon.vue";
+import ExpandIcon from "../components/svgs/ExpandIcon.vue";
 
 export default {
 	props: ["title", "type", "desc", "img", "link"],
-	components: { LeftArrowIcon, RightArrowIcon, CloseIcon },
+	components: { LeftArrowIcon, RightArrowIcon, CloseIcon, ExpandIcon },
 	data() {
 		return {
 			descClicked: false,
 			descHovered: false,
+			expanded: false,
 			index: 0,
 		};
 	},
@@ -54,6 +57,9 @@ export default {
 			} else if (this.index > this.img.length - 1) {
 				this.index = 0;
 			}
+		},
+		expandImage() {
+			this.expanded = !this.expanded;
 		},
 	},
 };

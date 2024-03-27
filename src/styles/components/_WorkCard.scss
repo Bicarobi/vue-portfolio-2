@@ -138,6 +138,13 @@
 			}
 		}
 
+		> .expanded {
+			position: fixed;
+			transform: rotate(-90deg);
+			max-width: 90vh;
+			max-height: 90vw;
+		}
+
 		> .text-container {
 			display: flex;
 			flex-direction: column;
