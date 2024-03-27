@@ -969,7 +969,7 @@
   transform: translate(-50%, -50%);
 }
 .work-card-container > .modal > .wide-expanded {
-  max-width: 90vw;
+  max-width: 85vw;
   max-height: 90vh;
 }
 @media (max-width: 700px) {

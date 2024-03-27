@@ -9,7 +9,7 @@
 				<EducationIcon />
 				<div>{{ $t("resumeView.education") }}</div>
 			</div>
-			<ResumeInfo v-for="info in processedEduInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
+			<ResumeInfo v-for="info in processedEduInfo" :key="info.title" :title="info.title" :time="info.time" :desc="info.desc" />
 		</div>
 		<hr class="line" />
 		<div class="content-container">

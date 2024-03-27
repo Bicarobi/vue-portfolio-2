@@ -25,8 +25,8 @@ div {
 	line-height: 0;
 
 	position: fixed;
-	bottom: 5%;
-	right: 5%;
+	top: 20px;
+	right: 60px;
 }
 
 svg {
