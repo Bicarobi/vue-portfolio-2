@@ -1,6 +1,6 @@
 <template>
 	<div class="work-card-container">
-		<div class="desc-container" @click="showDesc(true, false)" @mouseenter="showDesc(false, true)" @mouseleave="showDesc(false, false)">
+		<div class="desc-container" @click="showDesc(true, false), expandImage(false)" @mouseenter="showDesc(false, true)" @mouseleave="showDesc(false, false)">
 			<img :src="require('../assets/' + img[0])" />
 			<div class="desc" :style="this.descClicked || this.descHovered ? 'opacity: 1' : 'opacity: 0'">
 				{{ desc }}
@@ -11,15 +11,15 @@
 			<div class="type">{{ type }}</div>
 		</div>
 		<div class="modal" :style="this.descClicked ? 'display: fixed' : 'display: none'">
-			<img :src="require('../assets/' + img[this.index])" :class="{ expanded: this.expanded }" />
+			<img ref="image" :src="require('../assets/' + img[this.index])" :class="{ expanded: this.expanded, rotate: this.expanded && this.imageWidth > this.imageHeight }" @load="getImageSize" />
 			<div class="text-container">
 				<a :href="link"
 					><div class="title">{{ title }}</div></a
 				>
 				<div class="type">{{ desc }}</div>
-				<ExpandIcon @click="expandImage" />
+				<ExpandIcon @click="expandImage(true)" />
 			</div>
-			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false)" />
+			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false), expandImage(false)" />
 		</div>
 	</div>
 </template>
@@ -38,7 +38,10 @@ export default {
 			descClicked: false,
 			descHovered: false,
 			expanded: false,
+			expandedWide: false,
 			index: 0,
+			imageWidth: 0,
+			imageHeight: 0,
 		};
 	},
 	methods: {
@@ -58,8 +61,18 @@ export default {
 				this.index = 0;
 			}
 		},
-		expandImage() {
-			this.expanded = !this.expanded;
+		expandImage(clicked) {
+			this.expanded = clicked;
+		},
+		getImageSize() {
+			const img = this.$refs.image;
+			this.imageWidth = img.naturalWidth;
+			this.imageHeight = img.naturalHeight;
+			if (this.imageWidth > this.imageHeight) {
+				this.expandedWide = false;
+			} else {
+				this.expandedWide = true;
+			}
 		},
 	},
 };

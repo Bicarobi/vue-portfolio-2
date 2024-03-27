@@ -17,7 +17,7 @@
 				<WorkIcon />
 				<div>{{ $t("resumeView.experience") }}</div>
 			</div>
-			<ResumeInfo v-for="info in processedWorkInfo" :key="title" :title="info.title" :time="info.time" :desc="info.desc" />
+			<ResumeInfo v-for="info in processedWorkInfo" :key="info.title" :title="info.title" :time="info.time" :desc="info.desc" />
 		</div>
 		<hr class="line" />
 		<div class="content-container">
