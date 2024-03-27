@@ -56,19 +56,19 @@
 		"experience": "Iskustvo",
 		"eduInfo": {
 			"info1": {
-				"title": "Sveučilište Sjever Varaždin - Diplomski studij",
+				"title": "Sveučilište Sjever Varaždin - Diplomski studij - Multimedija",
 				"time": "2023 — trenutno",
 				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 			},
 			"info2": {
-				"title": "Sveučilište Sjever Varaždin - Preddiplomski studij",
+				"title": "Sveučilište Sjever Varaždin - Preddiplomski studij - Multimedija, oblikovanje i primjena",
 				"time": "2020 — 2023",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				"desc": "Tijekom preddiplomskog studija, imao sam priliku upoznati se s teorijom i praktičnom primjenom grafičkog dizajna na raznim web stranicama, aplikacijama i vrstama medija, te sam aktivno sudjelovao u procesu njihove izrade od početka do kraja. Paralelno s tim, sam se bavio sa frontend i backend programiranjem, kako na studiju tako i u slobodno vrijeme. Iako je moj završni rad bio fokusiran na 3D modeliranje i 3D printanje, to nije narušilo moju strast prema (web) programiranju."
 			},
 			"info3": {
-				"title": "Elektrostrojarska Škola Varaždin",
+				"title": "Elektrostrojarska Škola Varaždin - Tehničar za računalstvo",
 				"time": "2016 — 2020",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				"desc": "Kroz srednjoškolsko obrazovanje stekao sam značajno znanje o raznim programskim jezicima, algoritmima i metodama programiranja. Također sam razvio duboko razumijevanje hardvera računala i uređaja, te načina na koje softver interkatira s njima. Moje obrazovanje obuhvatilo je i servisiranje i programiranje računalnih servera. Poseban naglasak bio je na razvoju računalnih programa i mobilnih aplikacija korištenjem jezika poput C# i Java, te na izradi web stranica. Kao dio završnog rada, kreirao sam video igru koristeći Python u Game Engine-u Godot."
 			}
 		},
 		"workInfo": {
