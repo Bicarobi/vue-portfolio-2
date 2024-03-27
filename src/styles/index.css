@@ -958,36 +958,38 @@
 }
 @media (max-width: 700px) {
   .work-card-container > .modal > img {
-    max-width: 75%;
-    max-height: 80%;
+    max-width: 70%;
+    max-height: 70%;
   }
 }
 .work-card-container > .modal > .expanded {
   position: fixed;
-  max-width: 50vh;
-  max-height: 50vw;
-  /* top: 50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-  /* @media (min-width: 1201px) {
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  }
-
-  @media (max-width: 700px) {
-  	max-width: 90vh;
-  	max-height: 90vw;
-  } */
+  transform: translate(-50%, -50%);
 }
 .work-card-container > .modal > .wide-expanded {
-  max-width: 90vh;
-  max-height: 90vw;
-}
-.work-card-container > .modal > .tall-expanded {
-  position: fixed;
   max-width: 90vw;
   max-height: 90vh;
+}
+@media (max-width: 700px) {
+  .work-card-container > .modal > .wide-expanded {
+    max-width: 80vh;
+    max-height: 80vw;
+    top: auto;
+    left: auto;
+    transform: translate(auto, auto);
+  }
+}
+.work-card-container > .modal > .tall-expanded {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+@media (max-width: 700px) {
+  .work-card-container > .modal > .tall-expanded {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
 }
 @media (max-width: 700px) {
   .work-card-container > .modal > .rotate {

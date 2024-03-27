@@ -26,9 +26,9 @@ div {
 svg {
 	height: var(--icon-size);
 	cursor: pointer;
+}
 
-	> path {
-		fill: var(--color2);
-	}
+path {
+	fill: var(--color2);
 }
 </style>

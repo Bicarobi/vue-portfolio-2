@@ -1,6 +1,6 @@
 <template>
 	<div class="work-card-container">
-		<div class="desc-container" @click="showDesc(true, false), expandImage(false)" @mouseenter="showDesc(false, true)" @mouseleave="showDesc(false, false)">
+		<div class="desc-container" @click="showDesc(true, false), (this.expanded = false)" @mouseenter="showDesc(false, true)" @mouseleave="showDesc(false, false)">
 			<img :src="require('../assets/' + img[0])" />
 			<div class="desc" :style="this.descClicked || this.descHovered ? 'opacity: 1' : 'opacity: 0'">
 				{{ desc }}
@@ -18,18 +18,20 @@
 					expanded: this.expanded,
 					'wide-expanded': this.expandedWide && this.expanded,
 					'tall-expanded': !this.expandedWide && this.expanded,
-					rotate: this.expanded && this.imageWidth > this.imageHeight,
+					rotate: this.expanded && this.expandedWide,
 				}"
 				@load="getImageSize"
 			/>
-			<div class="text-container">
+			<div class="text-container" :style="this.expanded ? 'display: none' : 'display: flex'">
 				<a :href="link"
 					><div class="title">{{ title }}</div></a
 				>
 				<div class="type">{{ desc }}</div>
-				<ExpandIcon @click="expandImage(true)" />
 			</div>
-			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false), expandImage(false)" />
+			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false), expandImage(false)" /><ExpandIcon
+				@click="expandImage"
+				:expanded="this.expanded"
+			/>
 		</div>
 	</div>
 </template>
@@ -71,8 +73,8 @@ export default {
 				this.index = 0;
 			}
 		},
-		expandImage(clicked) {
-			this.expanded = clicked;
+		expandImage() {
+			this.expanded = !this.expanded;
 		},
 		getImageSize() {
 			const img = this.$refs.image;

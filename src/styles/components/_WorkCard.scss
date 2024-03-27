@@ -133,43 +133,39 @@
 			}
 
 			@media #{$mobile} {
-				max-width: 75%;
-				max-height: 80%;
+				max-width: 70%;
+				max-height: 70%;
 			}
 		}
 
 		> .expanded {
 			position: fixed;
-
-			max-width: 50vh;
-			max-height: 50vw;
-
-			/* top: 50%;
+			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%); */
-
-			/* @media #{$desktop} {
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			}
-
-			@media #{$mobile} {
-				max-width: 90vh;
-				max-height: 90vw;
-			} */
+			transform: translate(-50%, -50%);
 		}
 
 		> .wide-expanded {
-			max-width: 90vh;
-			max-height: 90vw;
+			max-width: 90vw;
+			max-height: 90vh;
+
+			@media #{$mobile} {
+				max-width: 80vh;
+				max-height: 80vw;
+				top: auto;
+				left: auto;
+				transform: translate(auto, auto);
+			}
 		}
 
 		> .tall-expanded {
-			position: fixed;
-
 			max-width: 90vw;
 			max-height: 90vh;
+
+			@media #{$mobile} {
+				max-width: 80vw;
+				max-height: 80vh;
+			}
 		}
 
 		> .rotate {
