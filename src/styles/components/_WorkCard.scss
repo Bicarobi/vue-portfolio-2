@@ -112,6 +112,11 @@
 
 		padding-top: 70px;
 
+		@media #{$tablet} {
+			padding-top: 0;
+			justify-content: center;
+		}
+
 		@media #{$mobile} {
 			padding-top: 0;
 			justify-content: center;
@@ -122,9 +127,14 @@
 			max-height: 80%;
 			display: block;
 
+			@media #{$tablet} {
+				max-width: 75%;
+				max-height: 80%;
+			}
+
 			@media #{$mobile} {
 				max-width: 75%;
-				max-height: 70%;
+				max-height: 80%;
 			}
 		}
 
@@ -135,6 +145,7 @@
 			text-align: center;
 			margin-top: 50px;
 			color: $white;
+			padding: 0 10%;
 
 			@media #{$mobile} {
 				margin-top: 20px;

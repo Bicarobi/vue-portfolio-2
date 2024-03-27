@@ -933,6 +933,12 @@
   justify-content: flex-start;
   padding-top: 70px;
 }
+@media (max-width: 1200px) {
+  .work-card-container > .modal {
+    padding-top: 0;
+    justify-content: center;
+  }
+}
 @media (max-width: 700px) {
   .work-card-container > .modal {
     padding-top: 0;
@@ -944,10 +950,16 @@
   max-height: 80%;
   display: block;
 }
+@media (max-width: 1200px) {
+  .work-card-container > .modal > img {
+    max-width: 75%;
+    max-height: 80%;
+  }
+}
 @media (max-width: 700px) {
   .work-card-container > .modal > img {
     max-width: 75%;
-    max-height: 70%;
+    max-height: 80%;
   }
 }
 .work-card-container > .modal > .text-container {
@@ -957,6 +969,7 @@
   text-align: center;
   margin-top: 50px;
   color: #fff;
+  padding: 0 10%;
 }
 @media (max-width: 700px) {
   .work-card-container > .modal > .text-container {
