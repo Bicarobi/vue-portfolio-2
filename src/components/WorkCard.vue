@@ -23,9 +23,10 @@
 				@load="getImageSize"
 			/>
 			<div class="text-container" :style="this.expanded ? 'display: none' : 'display: flex'">
+				<div class="number">{{ this.index + 1 + " / " + this.img.length }}</div>
 				<a :href="link"
 					><div class="title">{{ title }}</div></a
-				>
+				>awdawd
 				<div class="type">{{ desc }}</div>
 			</div>
 			<LeftArrowIcon @click="changeImage(-1)" /><RightArrowIcon @click="changeImage(1)" /><CloseIcon @click="showDesc(true, false), expandImage(false)" /><ExpandIcon
