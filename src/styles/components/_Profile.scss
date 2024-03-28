@@ -69,6 +69,7 @@
 							border-radius: 25px;
 							cursor: pointer;
 							aspect-ratio: 1 / 1;
+							object-fit: cover;
 
 							@media #{$mobile} {
 								width: 100%;
