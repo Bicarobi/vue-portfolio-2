@@ -75,7 +75,7 @@
 			"info1": {
 				"title": "Prolink",
 				"time": "2023 — 2024",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				"desc": "During my time at Prolink, I had the opportunity to independently work on various significant projects such as the creation and design of Lesnina XXXL and Mömax stores. Additionally, I autonomously developed 300 scenes for the Autoškola Rusan application, which is utilized by 40 thousand users monthly. My recent projects have revolved around interior and exterior design for various apartments and residential buildings, as well as the creation of animation for medical purposes."
 			}
 		},
 		"skills": {
@@ -152,6 +152,10 @@
 				"type": "Graphic Design",
 				"work1": {
 					"title": "Zvirač Pelinkovac",
+					"desc": "Ovo je tekst za rad 3"
+				},
+				"work2": {
+					"title": "Wake Up Energy Drink",
 					"desc": "Ovo je tekst za rad 3"
 				}
 			},

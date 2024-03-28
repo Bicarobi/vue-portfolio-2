@@ -68,14 +68,14 @@
 			"info3": {
 				"title": "Elektrostrojarska Škola Varaždin - Tehničar za računalstvo",
 				"time": "2016 — 2020",
-				"desc": "Kroz srednjoškolsko obrazovanje stekao sam značajno znanje o raznim programskim jezicima, algoritmima i metodama programiranja. Također sam razvio duboko razumijevanje hardvera računala i uređaja, te načina na koje softver interkatira s njima. Moje obrazovanje obuhvatilo je i servisiranje i programiranje računalnih servera. Poseban naglasak bio je na razvoju računalnih programa i mobilnih aplikacija korištenjem jezika poput C# i Java, te na izradi web stranica. Kao dio završnog rada, kreirao sam video igru koristeći Python u Game Engine-u Godot."
+				"desc": "Kroz srednjoškolsko obrazovanje stekao sam značajno znanje o raznim programskim jezicima, algoritmima i metodama programiranja. Također sam razvio duboko razumijevanje hardvera računala i uređaja, te načina na koje softver interaktira s njima. Moje obrazovanje obuhvatilo je i servisiranje i programiranje računalnih servera. Poseban naglasak bio je na razvoju računalnih programa i mobilnih aplikacija korištenjem jezika poput C# i Java, te na izradi web stranica. Kao dio završnog rada, kreirao sam video igru koristeći Python u Game Engine-u Godot."
 			}
 		},
 		"workInfo": {
 			"info1": {
 				"title": "Prolink",
 				"time": "2023 — 2024",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				"desc": "U tvrtci Prolink sam imao priliku samostalno sudjelovati u raznim značajnim projektima, uključujući kreiranje i dizajniranje trgovina Lesnine XXXL i Mömax. Također, samostalno sam kreirao 300 scena za aplikaciju Autoškola Rusan, koju mjesečno koristi 40 tisuća korisnika. Nedavno sam radio na projektima koji su obuhvaćali uređenje interijera i eksterijera različitih apartmana i stambenih zgrada, te izradu animacije u medicinske svrhe."
 			}
 		},
 		"skills": {
@@ -153,6 +153,10 @@
 				"type": "Grafički Dizajn",
 				"work1": {
 					"title": "Zvirač Pelinkovac",
+					"desc": "Ovo je tekst za rad 3"
+				},
+				"work2": {
+					"title": "Wake Up Energetsko Piće",
 					"desc": "Ovo je tekst za rad 3"
 				}
 			},
