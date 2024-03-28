@@ -151,18 +151,26 @@
 			"graphicDesign": {
 				"type": "Graphic Design",
 				"work1": {
-					"title": "Zvirač Pelinkovac",
+					"title": "Don't Waste. Donate",
 					"desc": "Ovo je tekst za rad 3"
 				},
 				"work2": {
 					"title": "Wake Up Energy Drink",
+					"desc": "Ovo je tekst za rad 3"
+				},
+				"work3": {
+					"title": "About Me",
+					"desc": "Ovo je tekst za rad 3"
+				},
+				"work4": {
+					"title": "Mt. Fuji",
 					"desc": "Ovo je tekst za rad 3"
 				}
 			},
 			"photo": {
 				"type": "Photography",
 				"work1": {
-					"title": "work4",
+					"title": "The Archive",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			}
