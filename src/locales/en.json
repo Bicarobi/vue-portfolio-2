@@ -181,26 +181,26 @@
 				"type": "Graphic Design",
 				"work1": {
 					"title": "Don't Waste. Donate",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Design and creation in Figma and Adobe Photoshop for inventing an organization dealing with surplus food redistribution."
 				},
 				"work2": {
 					"title": "Wake Up Energy Drink",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Design in Adobe Illustrator and Blender for a fictional energy drink."
 				},
 				"work3": {
 					"title": "About Me",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Creating a brochure design in Adobe Illustrator and Adobe InDesign that includes all previous works."
 				},
 				"work4": {
 					"title": "Mt. Fuji",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Designing a brochure in Adobe Illustrator and Adobe InDesign for the attraction of Mount Fuji."
 				}
 			},
 			"photo": {
 				"type": "Photography",
 				"work1": {
 					"title": "The Archive",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Designing a magazine layout in Adobe Lightroom, Adobe Illustrator, and Adobe InDesign that thematically incorporates all project assignment images."
 				}
 			}
 		}

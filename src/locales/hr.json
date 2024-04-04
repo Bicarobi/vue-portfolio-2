@@ -182,26 +182,26 @@
 				"type": "Grafički Dizajn",
 				"work1": {
 					"title": "Don't Waste. Donate",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju organizaciju koja se bavi rješavanjem viška hrane."
 				},
 				"work2": {
 					"title": "Wake Up Energetsko Piće",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna u Adobe Illustratoru i Blenderu za izmišljenji energetski napitak."
 				},
 				"work3": {
 					"title": "O Meni",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna brošure u Adobe Illustratoru i Adobe InDesignu koja sadrži sve prethodne radove."
 				},
 				"work4": {
 					"title": "Mt. Fuji",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna brošure u Adobe Illustratoru i Adobe InDesignu za atrakciju planine Fuji."
 				}
 			},
 			"photo": {
 				"type": "Fotografija",
 				"work1": {
 					"title": "The Archive",
-					"desc": "Ovo je tekst za rad 4"
+					"desc": "Izrada dizajna časopisa u Adobe Lightroomu, Adobe Illustratoru i Adobe InDesignu koja tematski sadrži sve slike projektni zadatak."
 				}
 			}
 		}
