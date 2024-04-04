@@ -175,7 +175,7 @@
 				},
 				"work4": {
 					"title": "Cordova E-Čitač",
-					"desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u formatima .epub i .mobi s opcijom prilagodbe teksta, uz intuitivno sučelje. \nIzrađena je koristeći Cordovu, platformu za razvoj mobilnih aplikacija temeljenih na web tehnologijama."
+					"desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u formatima .epub i .mobi s opcijom prilagodbe teksta, uz intuitivno sučelje."
 				}
 			},
 			"graphicDesign": {

@@ -174,7 +174,7 @@
 				},
 				"work4": {
 					"title": "Cordova E-Reader",
-					"desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface. \nIt is built using Cordova, a platform for developing mobile applications based on web technologies."
+					"desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface."
 				}
 			},
 			"graphicDesign": {
