@@ -26,12 +26,12 @@
 	},
 	"aboutView": {
 		"text1": "Nakon završetka Elektrostrojarske Škole za Tehničara za Računalstvo, trenutno sam student na Sveučilištu Sjever, gdje sam postigao titulu prvostupnika inženjera multimedijske i grafičke tehnologije (bacc. ing. techn. graph.). Nastavljam svoje obrazovanje na diplomskom studiju Multimedija. Odabrao sam ovaj smjer zbog svoje strasti prema programiranju i povezivanju grafičkog dizajna s funkcionalnošću. Posebno sam zainteresiran za frontend i backend development jer smatram da su to područja koja oblikuju budućnost.",
-		"text2": "Trenutno istražujem i razvijam web stranice pomoću VueJs-a za frontend i NestJs-a za backend. Osim toga, volim istraživati i angažirati se u drugim područjima programiranja, poput izrade video igara koristeći Python ili C#. Zanima me detaljno proučavanje svakog koraka u procesu razvoja projekta kako bih stekao znanje i vještine za samostalnu izradu većih projekata. U budućnosti, ciljam integrirati alate umjetne inteligencije izravno u web stranice, omogućujući korisnicima unos sadržaja putem promptova.",
+		"text2": "Trenutno istražujem i razvijam web stranice pomoću Vue.js-a za frontend i Nest.js-a za backend. Osim toga, volim istraživati i angažirati se u drugim područjima programiranja, poput izrade video igara koristeći Python ili C#. Zanima me detaljno proučavanje svakog koraka u procesu razvoja projekta kako bih stekao znanje i vještine za samostalnu izradu većih projekata. U budućnosti, ciljam integrirati alate umjetne inteligencije izravno u web stranice, omogućujući korisnicima unos sadržaja putem promptova.",
 		"doing": "Moje Vještine",
 		"skills": {
 			"webDev": {
 				"title": "razvoj web stranica",
-				"desc": "Izrada kompletnih web stranica koristeći VueJs i NestJs"
+				"desc": "Izrada kompletnih web stranica koristeći Vue.js i Nest.js"
 			},
 			"webDesign": {
 				"title": "dizajn web stranica",
@@ -85,6 +85,7 @@
 				"webDev": "Razvoj Web Stranica",
 				"webDesign": "Dizajn Web Stranica",
 				"graphicDesign": "Grafički Dizajn",
+				"videoEditing": "Video Editiranje",
 				"photo": "Fotografija"
 			}
 		}
@@ -116,7 +117,7 @@
 				},
 				"work4": {
 					"title": "Tasker",
-					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći VueJs za frontend i NestJs za backend."
+					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći Vue.js za frontend i Nest.js za backend."
 				}
 			},
 			"design3D": {
@@ -130,6 +131,26 @@
 					"desc": "Ovo je tekst za rad 2"
 				},
 				"work3": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work4": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work5": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work6": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work7": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work8": {
 					"title": "Rad3",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}

@@ -31,23 +31,23 @@
 		"skills": {
 			"webDev": {
 				"title": "web development",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Creating complete websites using Vue.js and Nest.js"
 			},
 			"webDesign": {
 				"title": "web design",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Design and prototyping of websites and applications in Figma"
 			},
 			"graphicDesign": {
 				"title": "graphic design",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Creating various types of graphic designs in Adobe Illustrator and Photoshop"
 			},
 			"design3D": {
 				"title": "3d design",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Creating interior and exterior designs, as well as producing large-scale scenes, using Blender and Adobe Substance Painter"
 			},
 			"photo": {
 				"title": "photography",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Photography and album creation using Adobe Lightroom and InDesign"
 			}
 		}
 	},
@@ -85,6 +85,7 @@
 				"webDev": "Web Development",
 				"webDesign": "Web Design",
 				"graphicDesign": "Graphic Design",
+				"videoEditing": "Video Editing",
 				"photo": "Photography"
 			}
 		}
@@ -115,7 +116,7 @@
 				},
 				"work4": {
 					"title": "Tasker",
-					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using VueJs for the frontend and NestJs for the backend."
+					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using Vue.js for the frontend and Nest.js for the backend."
 				}
 			},
 			"design3D": {
@@ -130,6 +131,26 @@
 				},
 				"work3": {
 					"title": "work3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work4": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work5": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work6": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work7": {
+					"title": "Rad3",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work8": {
+					"title": "Rad3",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			},

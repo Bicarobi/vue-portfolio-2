@@ -61,10 +61,11 @@ export default {
 		},
 		processedSkills() {
 			const skills = [
-				{ type: this.$i18n.t("resumeView.skills.type.webDev"), percentage: "90", skills: ["HTML", "CSS", "Javascript", "VueJs", "NestJs", "PHP"] },
+				{ type: this.$i18n.t("resumeView.skills.type.webDev"), percentage: "90", skills: ["HTML", "CSS", "Javascript", "Vue.js", "Nest.js", "PHP"] },
 				{ type: this.$i18n.t("resumeView.skills.type.webDesign"), percentage: "80", skills: ["Adobe Illustrator", "Figma", "WebFlow"] },
 				{ type: this.$i18n.t("resumeView.skills.type.design3D"), percentage: "80", skills: ["Blender", "Autodesk Maya", "Adobe Substance Painter"] },
 				{ type: this.$i18n.t("resumeView.skills.type.graphicDesign"), percentage: "70", skills: ["Adobe Photoshop", "Adobe Illustrator"] },
+				{ type: this.$i18n.t("resumeView.skills.type.videoEditing"), percentage: "70", skills: ["DaVinci Resolve", "Adobe Premiere Pro, Adobe After Effects"] },
 				{ type: this.$i18n.t("resumeView.skills.type.photo"), percentage: "60", skills: ["Adobe Lightroom", "Adobe Photoshop"] },
 			];
 
