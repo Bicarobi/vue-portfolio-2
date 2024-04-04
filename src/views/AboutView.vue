@@ -12,11 +12,7 @@
 					</div>
 					<br />
 					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae unde numquam consequuntur dolores, neque doloremque voluptatem corporis cumque doloribus officiis
-						delectus porro praesentium quos pariatur repellat ab tempora maxime iste deleniti quia esse architecto fuga? Ipsam, voluptatibus. Labore maiores quis quibusdam blanditiis ipsam
-						provident quasi quidem aspernatur, quod ad perspiciatis dolorem autem iusto. A, vitae enim doloribus in inventore reprehenderit assumenda quisquam molestias adipisci debitis
-						nemo est harum earum blanditiis at laboriosam. Sequi delectus repudiandae dolor qui totam error voluptate eaque consequuntur doloremque! Impedit, nobis earum eligendi unde
-						neque rerum explicabo hic, cum tenetur totam aperiam vero. Adipisci, delectus?
+						{{ $t("aboutView.text2") }}
 					</div>
 				</div>
 			</div>

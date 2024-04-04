@@ -26,28 +26,28 @@
 	},
 	"aboutView": {
 		"text1": "Nakon završetka Elektrostrojarske Škole za Tehničara za Računalstvo, trenutno sam student na Sveučilištu Sjever, gdje sam postigao titulu prvostupnika inženjera multimedijske i grafičke tehnologije (bacc. ing. techn. graph.). Nastavljam svoje obrazovanje na diplomskom studiju Multimedija. Odabrao sam ovaj smjer zbog svoje strasti prema programiranju i povezivanju grafičkog dizajna s funkcionalnošću. Posebno sam zainteresiran za frontend i backend development jer smatram da su to područja koja oblikuju budućnost.",
-		"text2": "",
+		"text2": "Trenutno istražujem i razvijam web stranice pomoću VueJs-a za frontend i NestJs-a za backend. Osim toga, volim istraživati i angažirati se u drugim područjima programiranja, poput izrade video igara koristeći Python ili C#. Zanima me detaljno proučavanje svakog koraka u procesu razvoja projekta kako bih stekao znanje i vještine za samostalnu izradu većih projekata. U budućnosti, ciljam integrirati alate umjetne inteligencije izravno u web stranice, omogućujući korisnicima unos sadržaja putem promptova.",
 		"doing": "Moje Vještine",
 		"skills": {
 			"webDev": {
 				"title": "razvoj web stranica",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Izrada kompletnih web stranica koristeći VueJs i NestJs"
 			},
 			"webDesign": {
 				"title": "dizajn web stranica",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Izrada dizajna i prototypea web stranica i aplikacija u Figmi"
 			},
 			"graphicDesign": {
 				"title": "grafički dizajn",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Izrada raznih vrsta grafičkog dizajna u Adobe Illustrator i Photoshop"
 			},
 			"design3D": {
 				"title": "3d dizajn",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Izrada dizajna interijera i eksterijera, kao i izradu velikih scena, koristeći Blender"
 			},
 			"photo": {
 				"title": "fotografija",
-				"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam"
+				"desc": "Fotografiranje i izrada albuma, koristeći Adobe Lightroom i InDesign"
 			}
 		}
 	},
@@ -104,15 +104,19 @@
 				"type": "Dizajn Web Stranica",
 				"work1": {
 					"title": "Prethodni Portfolio",
-					"desc": "Ovo je tekst za rad 1"
+					"desc": "Izrada dizajna i prototypea u Figmi za jednostavan portfolio minimalističkog stila."
 				},
 				"work2": {
-					"title": "Don't Waste. Donate",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Don't Waste. Donate.",
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju organizaciju koja se bavi rješavanjem viška hrane."
 				},
 				"work3": {
 					"title": "Wag",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja omogućuje korisnicima da zatraže ili ponude uslugu šetanja pasa."
+				},
+				"work4": {
+					"title": "Tasker",
+					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći VueJs za frontend i NestJs za backend."
 				}
 			},
 			"design3D": {
@@ -134,19 +138,19 @@
 				"type": "Dizajn Mobilnih Aplikacija",
 				"work1": {
 					"title": "Wag",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja omogućuje korisnicima da zatraže ili ponude uslugu šetanja pasa."
 				},
 				"work2": {
 					"title": "Unin Šetnja",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja olakšava studentima pronalaženje i pregled profesora i predavaonica, uz mogućnost pristupa rasporedu svih studija na jednom mjestu."
 				},
 				"work3": {
 					"title": "EcoCompass",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja olakšava korisnicima pretraživanje simbola za recikliranje putem AR skeniranja. Također pruža pregled rasporeda odvoza otpada."
 				},
 				"work4": {
 					"title": "Cordova E-Čitač",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u formatima .epub i .mobi s opcijom prilagodbe teksta, uz intuitivno sučelje. \nIzrađena je koristeći Cordovu, platformu za razvoj mobilnih aplikacija temeljenih na web tehnologijama."
 				}
 			},
 			"graphicDesign": {

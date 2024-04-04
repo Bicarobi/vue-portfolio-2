@@ -107,11 +107,10 @@ export default {
 	beforeMount() {
 		if (localStorage.openedProfile == "enabled") {
 			this.openedProfile = true;
-			this.openProfile();
 		} else {
 			this.openedProfile = false;
-			this.openProfile();
 		}
+		this.openProfile();
 	},
 	methods: {
 		openProfile() {

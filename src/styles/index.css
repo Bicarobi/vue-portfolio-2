@@ -736,8 +736,27 @@
 }
 
 .about-card-container {
-  width: calc(50% - 10px);
   width: 100%;
+}
+@media (max-width: 1200px) {
+  .about-card-container {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 900px) {
+  .about-card-container {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .about-card-container {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 550px) {
+  .about-card-container {
+    width: 100%;
+  }
 }
 .about-card-container > .grid-container {
   display: grid;
@@ -1011,9 +1030,10 @@
   text-decoration: none;
 }
 .work-card-container > .modal > .text-container > a > .title {
-  margin-top: 30px;
-  color: #fff;
-  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--color2);
+  font-size: 1.3em;
 }
 @media (max-width: 700px) {
   .work-card-container > .modal > .text-container > a > .title {
@@ -1028,6 +1048,10 @@
   font-size: 1em;
   font-weight: bold;
   margin-top: 5px;
+}
+.work-card-container > .modal > .text-container > .desc {
+  font-size: 1em;
+  white-space: pre-line;
 }
 
 .resume-info-container {

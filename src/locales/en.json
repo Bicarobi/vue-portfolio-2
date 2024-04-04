@@ -26,7 +26,7 @@
 	},
 	"aboutView": {
 		"text1": "After graduating from the School of Electrical Engineering for Computer Technicians, I am currently a student at the University of the North, where I obtained a bachelor's degree in multimedia and graphic technology engineering (bacc. ing. tech. graph.). I am continuing my education at the graduate study in Multimedia. I chose this major because of my passion for programming and connecting graphic design with functionality. I am particularly interested in frontend and backend development because I believe that these are areas that shape the future.",
-		"text2": "",
+		"text2": "I am currently exploring and developing websites using Vue.js for the frontend and Nest.js for the backend. Additionally, I enjoy exploring and engaging in other areas of programming, such as creating video games using Python or C#. I am interested in thoroughly studying each step of the project development process to gain knowledge and skills for independently creating larger projects. In the future, my goal is to integrate artificial intelligence tools directly into websites, enabling users to input content through prompts.",
 		"doing": "What I'm Doing",
 		"skills": {
 			"webDev": {
@@ -103,15 +103,19 @@
 				"type": "Web Design",
 				"work1": {
 					"title": "Old Portfolio",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Design and prototype creation in Figma for a simple portfolio of minimalist style."
 				},
 				"work2": {
-					"title": "Don't Waste. Donate",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Don't Waste. Donate.",
+					"desc": "Design and prototype creation in Figma for inventing an organization dealing with surplus food redistribution."
 				},
 				"work3": {
 					"title": "Wag",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Design and prototype creation in Figma for inventing an application that enables users to request or offer dog walking services."
+				},
+				"work4": {
+					"title": "Tasker",
+					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using VueJs for the frontend and NestJs for the backend."
 				}
 			},
 			"design3D": {
@@ -133,19 +137,19 @@
 				"type": "App Design",
 				"work1": {
 					"title": "Wag",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"desc": "Design and prototype creation in Figma for inventing an application that enables users to request or offer dog walking services."
 				},
 				"work2": {
 					"title": "Unin Walk",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Designing and prototyping in Figma for inventing an application that facilitates students in finding and reviewing professors and lecture halls, with the ability to access the schedule of all courses in one place."
 				},
 				"work3": {
 					"title": "EcoCompass",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Design and prototyping in Figma for inventing an application that facilitates users in searching for recycling symbols through AR scanning. It also provides an overview of waste collection schedules."
 				},
 				"work4": {
 					"title": "Cordova E-Reader",
-					"desc": "Ovo je tekst za rad 3"
+					"desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface. \nIt is built using Cordova, a platform for developing mobile applications based on web technologies."
 				}
 			},
 			"graphicDesign": {

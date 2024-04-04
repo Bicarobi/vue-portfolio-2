@@ -19,6 +19,13 @@ div {
 	line-height: 0;
 }
 
+@media only screen and (min-width: 700px) {
+	div {
+		min-width: 65px;
+		text-align: center;
+	}
+}
+
 svg {
 	height: var(--icon-size2);
 }
