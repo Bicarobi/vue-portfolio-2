@@ -197,6 +197,34 @@ export default {
 					filter: "3d-design",
 				},
 				{
+					title: this.$i18n.t("portfolioView.works.design3D.work9.title"),
+					type: this.$i18n.t("portfolioView.works.design3D.type"),
+					desc: this.$i18n.t("portfolioView.works.design3D.work9.desc"),
+					img: [
+						"design-3d/work9/design-3d-autoschool-1.png",
+						"design-3d/work9/design-3d-autoschool-2.png",
+						"design-3d/work9/design-3d-autoschool-3.png",
+						"design-3d/work9/design-3d-autoschool-4.png",
+						"design-3d/work9/design-3d-autoschool-5.png",
+						"design-3d/work9/design-3d-autoschool-6.png",
+						"design-3d/work9/design-3d-autoschool-7.png",
+						"design-3d/work9/design-3d-autoschool-8.png",
+						"design-3d/work9/design-3d-autoschool-9.png",
+						"design-3d/work9/design-3d-autoschool-10.png",
+						"design-3d/work9/design-3d-autoschool-11.png",
+						"design-3d/work9/design-3d-autoschool-12.png",
+						"design-3d/work9/design-3d-autoschool-13.png",
+						"design-3d/work9/design-3d-autoschool-14.png",
+						"design-3d/work9/design-3d-autoschool-15.png",
+						"design-3d/work9/design-3d-autoschool-16.png",
+						"design-3d/work9/design-3d-autoschool-17.png",
+						"design-3d/work9/design-3d-autoschool-18.png",
+						"design-3d/work9/design-3d-autoschool-19.png",
+					],
+					link: "",
+					filter: "3d-design",
+				},
+				{
 					title: this.$i18n.t("portfolioView.works.design3D.work1.title"),
 					type: this.$i18n.t("portfolioView.works.design3D.type"),
 					desc: this.$i18n.t("portfolioView.works.design3D.work1.desc"),
@@ -212,7 +240,6 @@ export default {
 					link: "",
 					filter: "3d-design",
 				},
-
 				{
 					title: this.$i18n.t("portfolioView.works.design3D.work4.title"),
 					type: this.$i18n.t("portfolioView.works.design3D.type"),
@@ -221,7 +248,6 @@ export default {
 					link: "",
 					filter: "3d-design",
 				},
-
 				{
 					title: this.$i18n.t("portfolioView.works.design3D.work6.title"),
 					type: this.$i18n.t("portfolioView.works.design3D.type"),
@@ -237,7 +263,6 @@ export default {
 					link: "",
 					filter: "3d-design",
 				},
-
 				{
 					title: this.$i18n.t("portfolioView.works.graphicDesign.work1.title"),
 					type: this.$i18n.t("portfolioView.works.graphicDesign.type"),

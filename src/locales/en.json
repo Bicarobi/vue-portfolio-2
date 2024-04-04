@@ -150,7 +150,11 @@
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				},
 				"work8": {
-					"title": "Rad3",
+					"title": "Rad",
+					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+				},
+				"work9": {
+					"title": "Autoškola Rusan",
 					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
 				}
 			},
