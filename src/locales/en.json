@@ -122,40 +122,40 @@
 			"design3D": {
 				"type": "3D Design",
 				"work1": {
-					"title": "work1",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Bathroom",
+					"desc": "Independent creation and design of a bathroom based on an image."
 				},
 				"work2": {
-					"title": "work2",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Bathroom Details",
+					"desc": "Independent creation and design of a bathroom details based on an image."
 				},
 				"work3": {
-					"title": "work3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Modern Seaside Vacation House",
+					"desc": "Independent creation and design of a modern-style seaside vacation home in Blender."
 				},
 				"work4": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Residential building",
+					"desc": "Independent creation and design of a residential building in Blender."
 				},
 				"work5": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Touristic House",
+					"desc": "Independent creation and design of a tourist house in Blender."
 				},
 				"work6": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Lesnina XXXL and Mömax",
+					"desc": "Independent creation and design of the new Lesnina XXXL and MömaX stores in Blender."
 				},
 				"work7": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Seaside House",
+					"desc": "Independent creation and design of a seaside house in Blender."
 				},
 				"work8": {
-					"title": "Rad",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Modern Seaside House",
+					"desc": "Independent creation and design of a modern-style seaside house in Blender."
 				},
 				"work9": {
-					"title": "Autoškola Rusan",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Autoschool Rusan",
+					"desc": "Independent creation of approximately 300 3D scenes in Blender for the Autoškola Rusan application, which is visited by around 40 thousand users monthly."
 				}
 			},
 			"appDesign": {

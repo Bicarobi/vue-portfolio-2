@@ -123,40 +123,40 @@
 			"design3D": {
 				"type": "3D Dizajn",
 				"work1": {
-					"title": "Rad1",
-					"desc": "Ovo je tekst za rad 2"
+					"title": "Kupaonica",
+					"desc": "Samostalna izrada i dizajn kupaonice prema slici."
 				},
 				"work2": {
-					"title": "Rad2",
-					"desc": "Ovo je tekst za rad 2"
+					"title": "Detalji Kupaonice",
+					"desc": "Samostalna izrada i dizajn detalja kupaonice prema slici."
 				},
 				"work3": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Moderna Turistička Kuća Na Moru",
+					"desc": "Samostalna izrada i dizajn turističke kuće na moru modernijeg stila, u Blenderu."
 				},
 				"work4": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Stambena Zgrada",
+					"desc": "Samostalna izrada i dizajn stambene zgrade u Blenderu."
 				},
 				"work5": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Turistička Kuća",
+					"desc": "Samostalna izrada i dizajn turističke kuće u Blenderu."
 				},
 				"work6": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Lesnina XXXL i Mömax",
+					"desc": "Samostalna izrada i dizajn nove trgovine Lesnine XXXL i MömaX u Blenderu."
 				},
 				"work7": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Kuća Na Moru",
+					"desc": "Samostalna izrada i dizajn kuće na moru u Blenderu."
 				},
 				"work8": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Moderna Kuća Na Moru",
+					"desc": "Samostalna izrada i dizajn kuće na moru modernijeg stila, u Blenderu."
 				},
 				"work9": {
-					"title": "Rad3",
-					"desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquam."
+					"title": "Autoškola Rusan",
+					"desc": "Samostalna izrada oko 3D 300 scena u Blenderu za aplikaciju Autoškola Rusan koju posjećuje oko 40 tisuća korisnika mjesečno."
 				}
 			},
 			"appDesign": {

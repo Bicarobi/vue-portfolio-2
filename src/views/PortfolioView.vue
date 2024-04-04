@@ -221,7 +221,7 @@ export default {
 						"design-3d/work9/design-3d-autoschool-18.png",
 						"design-3d/work9/design-3d-autoschool-19.png",
 					],
-					link: "",
+					link: "https://play.google.com/store/apps/details?id=com.prolink.autoskola&hl=hr",
 					filter: "3d-design",
 				},
 				{
