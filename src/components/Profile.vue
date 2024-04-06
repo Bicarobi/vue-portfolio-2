@@ -10,7 +10,7 @@
 						<div class="name">Robert Cmrečki</div>
 
 						<div class="tag-container">
-							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"
+							<router-link :to="{ name: 'portfolio', params: { filter: 'web-dev' } }"
 								><div class="tag">{{ $t("profile.skills.webDev") }}</div></router-link
 							>
 							<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }"
