@@ -93,14 +93,29 @@
 	"portfolioView": {
 		"skills": {
 			"all": "Sve",
-			"design3D": "3D Dizajn",
 			"webDev": "Razvoj Web Stranica",
+			"appDev": "Razvoj Aplikacija",
 			"webDesign": "Dizajn Web Stranica",
 			"appDesign": "Dizajn Mobilnih Aplikacija",
 			"graphicDesign": "Grafički Dizajn",
+			"design3D": "3D Dizajn",
 			"photo": "Fotografija"
 		},
 		"works": {
+			"webDev": {
+				"type": "Razvoj Web Stranica",
+				"work1": {
+					"title": "Tasker",
+					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći Vue.js za frontend i Nest.js za backend."
+				}
+			},
+			"appDev": {
+				"type": "Razvoj Aplikacija",
+				"work1": {
+					"title": "Cordova E-Čitač",
+					"desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u formatima .epub i .mobi s opcijom prilagodbe teksta, uz intuitivno sučelje."
+				}
+			},
 			"webDesign": {
 				"type": "Dizajn Web Stranica",
 				"work1": {
@@ -114,10 +129,6 @@
 				"work3": {
 					"title": "Wag",
 					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja omogućuje korisnicima da zatraže ili ponude uslugu šetanja pasa."
-				},
-				"work4": {
-					"title": "Tasker",
-					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći Vue.js za frontend i Nest.js za backend."
 				}
 			},
 			"design3D": {
@@ -172,10 +183,6 @@
 				"work3": {
 					"title": "EcoCompass",
 					"desc": "Izrada dizajna i prototypea u Figmi za izmišljenju aplikaciju koja olakšava korisnicima pretraživanje simbola za recikliranje putem AR skeniranja. Također pruža pregled rasporeda odvoza otpada."
-				},
-				"work4": {
-					"title": "Cordova E-Čitač",
-					"desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u formatima .epub i .mobi s opcijom prilagodbe teksta, uz intuitivno sučelje."
 				}
 			},
 			"graphicDesign": {

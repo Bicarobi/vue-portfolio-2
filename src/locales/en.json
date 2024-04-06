@@ -93,13 +93,29 @@
 	"portfolioView": {
 		"skills": {
 			"all": "All",
-			"design3D": "3D Design",
+			"webDev": "Web Development",
+			"appDev": "App Development",
 			"webDesign": "Web Design",
 			"graphicDesign": "Graphic Design",
 			"appDesign": "App Design",
+			"design3D": "3D Design",
 			"photo": "Photography"
 		},
 		"works": {
+			"webDev": {
+				"type": "Web Development",
+				"work1": {
+					"title": "Tasker",
+					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using Vue.js for the frontend and Nest.js for the backend."
+				}
+			},
+			"appDev": {
+				"type": "App Development",
+				"work1": {
+					"title": "Cordova E-Reader",
+					"desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface."
+				}
+			},
 			"webDesign": {
 				"type": "Web Design",
 				"work1": {
@@ -113,10 +129,6 @@
 				"work3": {
 					"title": "Wag",
 					"desc": "Design and prototype creation in Figma for inventing an application that enables users to request or offer dog walking services."
-				},
-				"work4": {
-					"title": "Tasker",
-					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using Vue.js for the frontend and Nest.js for the backend."
 				}
 			},
 			"design3D": {
@@ -171,10 +183,6 @@
 				"work3": {
 					"title": "EcoCompass",
 					"desc": "Design and prototyping in Figma for inventing an application that facilitates users in searching for recycling symbols through AR scanning. It also provides an overview of waste collection schedules."
-				},
-				"work4": {
-					"title": "Cordova E-Reader",
-					"desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface."
 				}
 			},
 			"graphicDesign": {

@@ -6,6 +6,8 @@
 		</div>
 		<div class="type-container">
 			<router-link :to="{ name: 'portfolio' }">{{ $t("portfolioView.skills.all") }}</router-link>
+			<router-link :to="{ name: 'portfolio', params: { filter: 'web-dev' } }">{{ $t("portfolioView.skills.webDev") }}</router-link>
+			<router-link :to="{ name: 'portfolio', params: { filter: 'app-dev' } }">{{ $t("portfolioView.skills.appDev") }}</router-link>
 			<router-link :to="{ name: 'portfolio', params: { filter: 'web-design' } }">{{ $t("portfolioView.skills.webDesign") }}</router-link>
 			<router-link :to="{ name: 'portfolio', params: { filter: '3d-design' } }">{{ $t("portfolioView.skills.design3D") }}</router-link>
 			<router-link :to="{ name: 'portfolio', params: { filter: 'app-design' } }">{{ $t("portfolioView.skills.appDesign") }}</router-link>
@@ -32,17 +34,20 @@ export default {
 		processedWorks() {
 			const works = [
 				{
-					title: this.$i18n.t("portfolioView.works.webDesign.work4.title"),
-					type: this.$i18n.t("portfolioView.works.webDesign.type"),
-					desc: this.$i18n.t("portfolioView.works.webDesign.work4.desc"),
-					img: [
-						"web-design/work4/web-design-tasker-1.png",
-						"web-design/work4/web-design-tasker-2.png",
-						"web-design/work4/web-design-tasker-3.jpeg",
-						"web-design/work4/web-design-tasker-4.jpeg",
-					],
+					title: this.$i18n.t("portfolioView.works.webDev.work1.title"),
+					type: this.$i18n.t("portfolioView.works.webDev.type"),
+					desc: this.$i18n.t("portfolioView.works.webDev.work1.desc"),
+					img: ["web-dev/work1/web-dev-tasker-1.png", "web-dev/work1/web-dev-tasker-2.png", "web-dev/work1/web-dev-tasker-3.jpeg", "web-dev/work1/web-dev-tasker-4.jpeg"],
 					link: "https://tasker-task-management.vercel.app",
-					filter: "web-design",
+					filter: "web-dev",
+				},
+				{
+					title: this.$i18n.t("portfolioView.works.appDev.work1.title"),
+					type: this.$i18n.t("portfolioView.works.appDev.type"),
+					desc: this.$i18n.t("portfolioView.works.appDev.work1.desc"),
+					img: ["app-dev/work1/app-dev-cordova-ereader-1.png", "app-dev/work1/app-dev-cordova-ereader-2.png", "app-dev/work1/app-dev-cordova-ereader-3.png"],
+					link: "https://drive.google.com/file/d/1fsNLheLSPQZ4z9KON3gwHG6qMLEZsqqo/view?usp=sharing",
+					filter: "app-dev",
 				},
 				{
 					title: this.$i18n.t("portfolioView.works.webDesign.work1.title"),
@@ -107,14 +112,6 @@ export default {
 						"app-design/work3/app-design-ecocompass-3.png",
 						"app-design/work3/app-design-ecocompass-4.png",
 					],
-					link: "https://www.figma.com/proto/pZVBU3tLHZRxUvpvkwuBBk/EcoCompass?type=design&node-id=172-544&t=0Lb399gH5R8Cn8zK-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=175%3A561&show-proto-sidebar=1&mode=design",
-					filter: "app-design",
-				},
-				{
-					title: this.$i18n.t("portfolioView.works.appDesign.work4.title"),
-					type: this.$i18n.t("portfolioView.works.appDesign.type"),
-					desc: this.$i18n.t("portfolioView.works.appDesign.work4.desc"),
-					img: ["app-design/work4/app-design-cordova-ereader-1.png", "app-design/work4/app-design-cordova-ereader-2.png", "app-design/work4/app-design-cordova-ereader-3.png"],
 					link: "https://www.figma.com/proto/pZVBU3tLHZRxUvpvkwuBBk/EcoCompass?type=design&node-id=172-544&t=0Lb399gH5R8Cn8zK-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=175%3A561&show-proto-sidebar=1&mode=design",
 					filter: "app-design",
 				},
