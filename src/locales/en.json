@@ -107,6 +107,10 @@
 				"work1": {
 					"title": "Tasker",
 					"desc": "Tasker is an online task management platform with an intuitive interface. \nBuilt using Vue.js for the frontend and Nest.js for the backend."
+				},
+				"work2": {
+					"title": "Musiker",
+					"desc": "Musiker is an online platform that enables users to upload and search for songs from Spotify. It's developed using Vue.js for the frontend, Spotify Web API for data retrieval, and Spotify iFrame API for song playback."
 				}
 			},
 			"appDev": {

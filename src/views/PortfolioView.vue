@@ -42,6 +42,14 @@ export default {
 					filter: "web-dev",
 				},
 				{
+					title: this.$i18n.t("portfolioView.works.webDev.work2.title"),
+					type: this.$i18n.t("portfolioView.works.webDev.type"),
+					desc: this.$i18n.t("portfolioView.works.webDev.work2.desc"),
+					img: ["web-dev/work2/web-dev-musiker-1.png", "web-dev/work2/web-dev-musiker-2.jpg"],
+					link: "https://musiker-spotify.vercel.app",
+					filter: "web-dev",
+				},
+				{
 					title: this.$i18n.t("portfolioView.works.appDev.work1.title"),
 					type: this.$i18n.t("portfolioView.works.appDev.type"),
 					desc: this.$i18n.t("portfolioView.works.appDev.work1.desc"),

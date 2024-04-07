@@ -107,6 +107,10 @@
 				"work1": {
 					"title": "Tasker",
 					"desc": "Tasker je online platforma za upravljanje zadacima s intuitivnim sučeljem.\n Izrađena koristeći Vue.js za frontend i Nest.js za backend."
+				},
+				"work2": {
+					"title": "Musiker",
+					"desc": "Musiker je online platforma koja omogućuje korisnicima da učitavaju i pretražuju pjesme sa Spotifya. \nIzrađena je korištenjem Vue.js za frontend, Spotify Web API za dohvaćanje podataka i Spotify iFrame API za reprodukciju pjesama."
 				}
 			},
 			"appDev": {
