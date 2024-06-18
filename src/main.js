@@ -8,8 +8,8 @@ import i18n from "./i18n";
 const app = createApp(App);
 
 app.config.globalProperties.$myGlobalVariable = reactive({
-	windowWidth: null,
-	mobileWindowWidth: 700,
+    windowWidth: null,
+    mobileWindowWidth: 700,
 });
 
-app.use(i18n).use(router).use(i18n).mount("#app");
+app.use(router).use(i18n).mount("#app");
