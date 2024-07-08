@@ -122,6 +122,10 @@
                 "work1": {
                     "title": "Cordova E-Reader",
                     "desc": "Cordova E-Reader is a web application that enables opening and reading e-books in .epub and .mobi formats with text customization options, alongside an intuitive interface."
+                },
+                "work2": {
+                    "title": "3D Snake",
+                    "desc": "3D Snake is a version of the classic Snake game in three dimensions. \nIt was made using Processing and the Java programming language."
                 }
             },
             "webDesign": {

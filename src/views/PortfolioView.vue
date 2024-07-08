@@ -81,6 +81,14 @@ export default {
                     filter: "app-dev",
                 },
                 {
+                    title: this.$i18n.t("portfolioView.works.appDev.work2.title"),
+                    type: this.$i18n.t("portfolioView.works.appDev.type"),
+                    desc: this.$i18n.t("portfolioView.works.appDev.work2.desc"),
+                    img: ["app-dev/work2/app-dev-snake-3d-1.png", "app-dev/work2/app-dev-snake-3d-2.png"],
+                    link: "",
+                    filter: "app-dev",
+                },
+                {
                     title: this.$i18n.t("portfolioView.works.webDesign.work1.title"),
                     type: this.$i18n.t("portfolioView.works.webDesign.type"),
                     desc: this.$i18n.t("portfolioView.works.webDesign.work1.desc"),

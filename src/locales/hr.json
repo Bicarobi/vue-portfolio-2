@@ -122,6 +122,10 @@
                 "work1": {
                     "title": "Cordova E-Čitač",
                     "desc": "Cordova E-Čitač je web aplikacija koja omogućuje otvaranje i čitanje e-knjiga u .epub i .mobi formatima s opcijom prilagodbe teksta, uz intuitivno sučelje."
+                },
+                "work2": {
+                    "title": "3D Snake",
+                    "desc": "3D Snake je verzija klasične igre Snake u tri dimenzije. \nIzrađena je koristeći Processing i Java programski jezik."
                 }
             },
             "webDesign": {
