@@ -115,6 +115,10 @@
                 "work3": {
                     "title": "HDLU Varaždin",
                     "desc": "Creating a website for the Croatian Association of Visual Artists Varaždin as part of a competition. \nIt was made using Vue.js for the frontend and WordPress CMS for the backend."
+                },
+                "work4": {
+                    "title": "Dasher",
+                    "desc": "Dasher is an example of the design and functionality of a dashboard website for employee management.\n It was built using Angular for the frontend."
                 }
             },
             "appDev": {

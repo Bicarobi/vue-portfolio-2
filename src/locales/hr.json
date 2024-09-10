@@ -115,6 +115,10 @@
                 "work3": {
                     "title": "HDLU Varaždin",
                     "desc": "Izrada web stranice za Hrvatsku Udrugu Likovnih Umjetnika Varaždin u sklopu natjecanja. \nIzrađena je koristeći Vue.js za frontend i Wordpress CMS za backend."
+                },
+                "work4": {
+                    "title": "Dasher",
+                    "desc": "Dasher je primjer dizajna i funkcionalnosti dashboard web stranice za upravljanje zaposlenicima.\n Izrađena je koristeći Angular za frontend."
                 }
             },
             "appDev": {

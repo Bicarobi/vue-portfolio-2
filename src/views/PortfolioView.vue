@@ -50,6 +50,14 @@ export default {
                     filter: "web-dev",
                 },
                 {
+                    title: this.$i18n.t("portfolioView.works.webDev.work4.title"),
+                    type: this.$i18n.t("portfolioView.works.webDev.type"),
+                    desc: this.$i18n.t("portfolioView.works.webDev.work4.desc"),
+                    img: ["web-dev/work4/web-dev-dasher-2.png", "web-dev/work4/web-dev-dasher-1.jpg"],
+                    link: "",
+                    filter: "web-dev",
+                },
+                {
                     title: this.$i18n.t("portfolioView.works.webDev.work2.title"),
                     type: this.$i18n.t("portfolioView.works.webDev.type"),
                     desc: this.$i18n.t("portfolioView.works.webDev.work2.desc"),
