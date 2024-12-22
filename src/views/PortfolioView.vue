@@ -15,9 +15,7 @@
             <router-link :to="{ name: 'portfolio', params: { filter: 'photography' } }">{{ $t("portfolioView.skills.photo") }}</router-link>
         </div>
         <hr class="line" />
-        <div class="works-container">
-            <WorkCard v-for="work in filterWorks(processedWorks)" :key="work.title + work.type" :title="work.title" :type="work.type" :desc="work.desc" :img="work.img" :link="work.link" />
-        </div>
+        <div class="works-container"><WorkCard v-for="work in filterWorks(processedWorks)" :key="work.title + work.type" :title="work.title" :type="work.type" :desc="work.desc" :img="work.img" :link="work.link" :filter="work.filter" /></div>
     </div>
 </template>
 
@@ -85,7 +83,7 @@ export default {
                     title: this.$i18n.t("portfolioView.works.webDesign.work1.title"),
                     type: this.$i18n.t("portfolioView.works.webDesign.type"),
                     desc: this.$i18n.t("portfolioView.works.webDesign.work1.desc"),
-                    img: ["web-design/work1/web-design-portfolio-old-2.jpeg", "web-design/work1/web-design-portfolio-old-1.jpeg"],
+                    img: ["web-design/work1/web-design-portfolio-old-2.png", "web-design/work1/web-design-portfolio-old-1.jpeg"],
                     link: "https://www.figma.com/proto/r67ggDZjAd5pDfe3gj3tdh/Portfolio-Dizajn?node-id=217-9&starting-point-node-id=217%3A9&scaling=scale-down-width&mode=design&t=QHplDNZBdXqlstwg-1",
                     filter: "web-design",
                 },
@@ -93,7 +91,7 @@ export default {
                     title: this.$i18n.t("portfolioView.works.webDesign.work2.title"),
                     type: this.$i18n.t("portfolioView.works.webDesign.type"),
                     desc: this.$i18n.t("portfolioView.works.webDesign.work2.desc"),
-                    img: ["web-design/work2/web-design-dont-waste-donate-2.jpeg", "web-design/work2/web-design-dont-waste-donate-1.jpeg"],
+                    img: ["web-design/work2/web-design-dont-waste-donate-2.png", "web-design/work2/web-design-dont-waste-donate-1.jpeg"],
                     link: "https://www.figma.com/proto/H15igXIS6OTLH5uDNd5QLd/don't-waste.-donate.?type=design&node-id=43-70&t=N2eKzCsgBaa9YaQC-1&scaling=min-zoom&page-id=1%3A3&starting-point-node-id=43%3A70&mode=design",
                     filter: "web-design",
                 },
@@ -101,7 +99,7 @@ export default {
                     title: this.$i18n.t("portfolioView.works.webDesign.work3.title"),
                     type: this.$i18n.t("portfolioView.works.webDesign.type"),
                     desc: this.$i18n.t("portfolioView.works.webDesign.work3.desc"),
-                    img: ["web-design/work3/web-design-wag-1.jpeg"],
+                    img: ["web-design/work3/web-design-wag-1.png"],
                     link: "https://www.figma.com/proto/AWytQoAax4V6SAdDQ7Y6U1/wag-landing-page?node-id=24-113&starting-point-node-id=24%3A113&mode=design&t=pf8cP3W0RVibYDi2-1",
                     filter: "web-design",
                 },

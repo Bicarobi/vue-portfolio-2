@@ -427,6 +427,13 @@
     font-size: 24px;
   }
 }
+.welcome-container > .text-container > .text-more :hover {
+  text-decoration: underline;
+}
+.welcome-container > .text-container > .text-more a {
+  text-decoration: none;
+  color: var(--color2);
+}
 
 .profile-container {
   display: flex;
@@ -799,7 +806,7 @@
 .about-card-container > .grid-container > .grid-right-side > .card-desc {
   color: var(--color1);
   font-size: 0.9em;
-  word-break: break-all;
+  text-align: left;
 }
 .about-card-container > .grid-container > .card-image {
   width: 3rem;
@@ -1029,14 +1036,17 @@
 .work-card-container > .modal > .text-container > a {
   text-decoration: none;
 }
-.work-card-container > .modal > .text-container > a > .title {
+.work-card-container > .modal > .text-container > a :hover {
+  text-decoration: underline;
+}
+.work-card-container > .modal > .text-container .title {
   margin-top: 20px;
   margin-bottom: 10px;
   color: var(--color2);
   font-size: 1.3em;
 }
 @media (max-width: 700px) {
-  .work-card-container > .modal > .text-container > a > .title {
+  .work-card-container > .modal > .text-container .title {
     margin-top: 20px;
   }
 }

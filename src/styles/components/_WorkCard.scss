@@ -186,17 +186,22 @@
             > a {
                 text-decoration: none;
 
-                > .title {
-                    margin-top: 20px;
-                    margin-bottom: 10px;
-                    color: var(--color2);
-                    font-size: 1.3em;
-
-                    @media #{$mobile} {
-                        margin-top: 20px;
-                    }
+                :hover {
+                    text-decoration: underline;
                 }
             }
+
+            .title {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: var(--color2);
+                font-size: 1.3em;
+
+                @media #{$mobile} {
+                    margin-top: 20px;
+                }
+            }
+
             > .number {
                 margin-top: 10px;
             }
